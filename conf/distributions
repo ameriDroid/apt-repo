@@ -1,0 +1,72 @@
+Origin: indieDroid
+Label: indieDroid APT Repository
+Codename: bookworm
+Architectures: arm64
+Components: main
+UdebComponents: main
+Description: Custom APT repository for software packages supporting Debian-based distributions for indieDroid Products.
+SignWith: 88ABFE5416332685008DBFA2022DBF39BF588BB9
+
+Origin: indieDroid
+Label: indieDroid APT Repository
+Codename: trixie
+Architectures: arm64
+Components: main
+UdebComponents: main
+Description: Custom APT repository for software packages supporting Debian-based distributions for indieDroid Products.
+SignWith: 88ABFE5416332685008DBFA2022DBF39BF588BB9
+
+Origin: indieDroid
+Label: indieDroid APT Repository
+Codename: sid
+Architectures: arm64
+Components: main
+UdebComponents: main
+Description: Custom APT repository for software packages supporting Debian-based distributions for indieDroid Products.
+SignWith: 88ABFE5416332685008DBFA2022DBF39BF588BB9
+
+Origin: indieDroid
+Label: indieDroid APT Repository
+Codename: oracular
+Architectures: arm64
+Components: main
+UdebComponents: main
+Description: Custom APT repository for software packages supporting Debian-based distributions for indieDroid Products.
+SignWith: 88ABFE5416332685008DBFA2022DBF39BF588BB9
+
+Origin: indieDroid
+Label: indieDroid APT Repository
+Codename: bookworm-testing
+Architectures: arm64
+Components: main
+UdebComponents: main
+Description: Custom APT repository for software packages supporting Debian-based distributions for indieDroid Products (Debian Bookworm testing).
+SignWith: 88ABFE5416332685008DBFA2022DBF39BF588BB9
+
+Origin: indieDroid
+Label: indieDroid APT Repository
+Codename: trixie-testing
+Architectures: arm64
+Components: main
+UdebComponents: main
+Description: Custom APT repository for software packages supporting Debian-based distributions for indieDroid Products (Debian Trixie testing).
+SignWith: 88ABFE5416332685008DBFA2022DBF39BF588BB9
+
+Origin: indieDroid
+Label: indieDroid APT Repository
+Codename: sid-testing
+Architectures: arm64
+Components: main
+UdebComponents: main
+Description: Custom APT repository for software packages supporting Debian-based distributions for indieDroid Products (Debian sid testing).
+SignWith: 88ABFE5416332685008DBFA2022DBF39BF588BB9
+
+Origin: indieDroid
+Label: indieDroid APT Repository
+Codename: oracular-testing
+Architectures: arm64
+Components: main
+UdebComponents: main
+Description: Custom APT repository for software packages supporting Debian-based distributions for indieDroid Products (Ubuntu Oracular testing).
+SignWith: 88ABFE5416332685008DBFA2022DBF39BF588BB9
+
