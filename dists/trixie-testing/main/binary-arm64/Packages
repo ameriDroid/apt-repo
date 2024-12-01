@@ -1,5 +1,5 @@
 Package: mali-g610-firmware
-Version: 1.0.4
+Version: 1.0.5
 Architecture: all
 Maintainer: Jianfeng Liu <liujianfeng1994@gmail.com>
 Installed-Size: 271
@@ -7,11 +7,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/JeffyCN/rockchip_mirrors/blob/libmali/firmware/g610/mali_csffw.bin
 Priority: optional
 Section: kernel
-Filename: pool/main/m/mali-g610-firmware/mali-g610-firmware_1.0.4_all.deb
-Size: 54320
-SHA256: 260519fc17c367812bbc485696d6bb9a58ae2c7f7cbfb622eb7fb6c294421b57
-SHA1: 5a7be7fecff3755c5c98f1910fb94e2f53af4f39
-MD5sum: 14400179085b7e815e2e0ab74eadcdc4
+Filename: pool/main/m/mali-g610-firmware/mali-g610-firmware_1.0.5_all.deb
+Size: 54492
+SHA256: 83802a99c590479d7d310863f5c4e5b42000ddfb9ab0d62ebd3c59ad81c2a9b6
+SHA1: d1de45dfc0ddc7cb7a63178d24ffaa887cc1fb60
+MD5sum: 8e5da46436c9c197a2cde20f7c918eb9
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
