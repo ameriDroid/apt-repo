@@ -11,10 +11,10 @@ inputs:
     description: "Paths to the .deb packages to upload, separated by commas"
     required: true
 runs:
-  using: "docker"
-  image: "debian:bookworm"
+  using: "composite"
   steps:
     - name: Install dependencies
+      shell: bash
       run: |
         apt-get update
         apt-get install -y reprepro gnupg git
@@ -26,6 +26,7 @@ runs:
         path: /repo
 
     - name: Import GPG key
+      shell: bash
       env:
         GPG_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
       run: |
@@ -33,6 +34,7 @@ runs:
         gpg --list-keys
 
     - name: Upload packages to APT repository
+      shell: bash
       run: |
         cd /repo
         IFS=',' read -r -a packages <<< "${{ inputs.package-paths }}"
@@ -41,6 +43,7 @@ runs:
         done
 
     - name: Push updated repository to main branch
+      shell: bash
       run: |
         cd /repo
         git config --global user.name "GitHub Actions"
