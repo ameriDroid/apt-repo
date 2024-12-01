@@ -1,0 +1,35 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: indieDroid
+Label: indieDroid APT Repository
+Codename: oracular
+Date: Sun, 01 Dec 2024 13:11:12 UTC
+Architectures: arm64
+Components: main
+Description: Custom APT repository for software packages supporting Debian-based distributions for indieDroid Products.
+MD5Sum:
+ 0045f1cbf26b2868c812a661a2e235f6 631 main/binary-arm64/Packages
+ 165be18c02707ea89c62c226d956ed54 445 main/binary-arm64/Packages.gz
+ eb021639ee00856c30b42c3c356b1909 208 main/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-arm64/Packages.gz
+SHA1:
+ e14d20e53190665d95050705fdf8012db1d0cf12 631 main/binary-arm64/Packages
+ 625984f5e4a88f5531773c066cd8a78f8be0bdac 445 main/binary-arm64/Packages.gz
+ 8ae8f5664e5e3b99b5e18137f74a04f9306d0dd7 208 main/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-arm64/Packages.gz
+SHA256:
+ 2ba60891f6dd260f60712a063debcd2ea43a1ad3e83f27f226b3262ce8e4dcda 631 main/binary-arm64/Packages
+ b24d920455270596993e64a52bf0b36a2d61a484a4e4e38f06da1336483e199f 445 main/binary-arm64/Packages.gz
+ a4784837d29d36559f350a3b2a1511679815782db88f09d990197dc0d9238565 208 main/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYIAB0WIQSIq/5UFjMmhQCNv6ICLb85v1iLuQUCZ0xgcAAKCRACLb85v1iL
+uQw0AQCFOxFLHfCRxPeBbqu/8PgSjrdJRI10DfYS9/R+Dhs0HwD/bEFOoLfaix4q
+DGL9M5nFn+wHVLG/1b87BMpKuQR/awQ=
+=3yRD
+-----END PGP SIGNATURE-----
