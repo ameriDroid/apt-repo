@@ -1,3 +1,233 @@
+Package: grub-common
+Source: grub2
+Version: 2.06-13+deb12u1~1
+Architecture: arm64
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 18220
+Depends: libc6 (>= 2.34), libdevmapper1.02.1 (>= 2:1.02.36), libefiboot1 (>= 37), libefivar1 (>= 37), libfreetype6 (>= 2.2.1), libfuse2 (>= 2.8.4-1.4), liblzma5 (>= 5.1.1alpha+20120614), gettext-base
+Recommends: os-prober (>= 1.33)
+Suggests: multiboot-doc, mtools, xorriso (>= 0.5.6.pl00), desktop-base (>= 4.0.6), console-setup
+Conflicts: init-select
+Breaks: apport (<< 2.1.1), friendly-recovery (<< 0.2.13), lupin-support (<< 0.55), mdadm (<< 2.6.7-2)
+Replaces: grub-coreboot (<< 2.00-4), grub-efi (<< 1.99-1), grub-efi-amd64 (<< 2.00-4), grub-efi-ia32 (<< 2.00-4), grub-efi-ia64 (<< 2.00-4), grub-ieee1275 (<< 2.00-4), grub-linuxbios (<< 1.96+20080831-1), grub-pc (<< 2.00-4), grub-yeeloong (<< 2.00-4), init-select
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Priority: optional
+Section: admin
+Filename: pool/main/g/grub2/grub-common_2.06-13+deb12u1~1_arm64.deb
+Size: 2693368
+SHA256: ecc9f8b53aca46094f4251691051f789eb174cb8095c836a4b1fcc6b9d65e160
+SHA1: a8db8687ef7cd9899902a62521769116a29c1e30
+MD5sum: 71ef2da6baf754831c402293ae13e9c2
+Description: GRand Unified Bootloader (common files)
+ This package contains common files shared by the distinct flavours of GRUB.
+ It is shared between GRUB Legacy and GRUB 2, although a number of files
+ specific to GRUB 2 are here as long as they do not break GRUB Legacy.
+ .
+ grub-mkrescue needs the suggested packages mtools (for UEFI targets) and
+ xorriso.
+
+Package: grub-common-dbgsym
+Source: grub2
+Version: 2.06-13+deb12u1~1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 12617
+Depends: grub-common (= 2.06-13+deb12u1~1)
+Priority: optional
+Section: debug
+Filename: pool/main/g/grub2/grub-common-dbgsym_2.06-13+deb12u1~1_arm64.deb
+Size: 11417416
+SHA256: 876abc7eab8f5aee5d9f2b2db27cde7805579b83a1a57259f94da6d81939e4e4
+SHA1: 8f80b887a657560bc85c55ba7913c8df7b9495d2
+MD5sum: 83589957405ff0c1ef84a5709560f674
+Description: debug symbols for grub-common
+Build-Ids: 09575e29e8d6c3cb6b545424ba6a9ae5ceb9d297 0ba8cf738a402a9f504403f8d810d88cf2126e0a 0bf36d2d94b764d74f6d361fcb6619e5db2594a0 107b760f0e2598ca4e7713a4ce71253877559d20 248328c1dd362b81a08bc8e9eea5323dc47e4a2c 25f7b28633e2b6bb498e0f29c3057c251cea6034 499189575089f92d173506044cfc66b49e931cb3 500a6ef7994442643d2e0131f9e6f062011a2075 5d562b16f4e63c934271e35baa896649535d4fe3 681c611544b6a001d4d5eebc16deea1e20186279 6be868d6dc513a3a2a204f5f99cd395e9af1c40c 7871e29a2e4d934a8a9e45b19185b089338d7e4e 7f0e96f87c82668bcaee384ada6fa8d952831e23 810527350ed19cf937423045323787b316f3092a 87725f2dcf90f6c2ed6d5c88ad1f1f1f398dd636 8cd95108d98e9d26c88588c245d0f483fd4feff0 b12ed40f7be0df17e02a3066fa95e40b662af98a e4f511e325b4b3182ee3e74abcb47a3a65faf00d e8dcc28bb92396c24daa8f422d261d658515109d f9561ef52582d83bee4a47fa2d7607fb3ec28dc7
+
+Package: grub-efi
+Source: grub2
+Version: 2.06-13+deb12u1~1
+Architecture: arm64
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 12
+Depends: grub-common (= 2.06-13+deb12u1~1), grub-efi-arm64 (= 2.06-13+deb12u1~1)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Priority: optional
+Section: admin
+Filename: pool/main/g/grub2/grub-efi_2.06-13+deb12u1~1_arm64.deb
+Size: 2388
+SHA256: 8caee9ffc6ced5faf07f66a318dc1bfaca7727f087b81876ffa9d348f3ede5a3
+SHA1: 6f49270d360b037edd2232ca66296fa1e254fa07
+MD5sum: c1dc53bce75196d3b77112df17cd99dc
+Description: GRand Unified Bootloader, version 2 (dummy package)
+ This is a dummy package that depends on the grub-efi-$ARCH package most likely
+ to be appropriate for each architecture.
+
+Package: grub-efi-arm64
+Source: grub2
+Version: 2.06-13+deb12u1~1
+Architecture: arm64
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 176
+Depends: debconf (>= 0.5) | debconf-2.0, grub-common (= 2.06-13+deb12u1~1), grub2-common (= 2.06-13+deb12u1~1), grub-efi-arm64-bin (= 2.06-13+deb12u1~1), ucf
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Priority: optional
+Section: admin
+Filename: pool/main/g/grub2/grub-efi-arm64_2.06-13+deb12u1~1_arm64.deb
+Size: 45568
+SHA256: 4b2a4bc1e44f1e7ce5dadcf05a1b6d0477057a09efa689f0ffc2fe24074dabdd
+SHA1: 16de36a759b81d0df9fe2b714b7e322df2c132f0
+MD5sum: 593156a614fc85518a5fc5a51ae92166
+Description: GRand Unified Bootloader, version 2 (ARM64 UEFI version)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This is a dependency package for a version of GRUB that has been built for
+ use on ARM64 systems with UEFI.  Installing this package indicates that
+ this version of GRUB should be the active boot loader.
+
+Package: grub-efi-arm64-bin
+Source: grub2
+Version: 2.06-13+deb12u1~1
+Architecture: arm64
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 18694
+Depends: grub-common (= 2.06-13+deb12u1~1)
+Recommends: grub-efi-arm64-signed, efibootmgr
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Priority: optional
+Section: admin
+Filename: pool/main/g/grub2/grub-efi-arm64-bin_2.06-13+deb12u1~1_arm64.deb
+Size: 1401292
+SHA256: 777af2c89c4d1df4a236b2299718f6af824dbc1bc557697c38fcd25d6adaeeb8
+SHA1: 97b61f433ce6481ec303d561157ca56257caeb9f
+MD5sum: 3fd2a99d903a4ab7208a42a2664b6226
+Description: GRand Unified Bootloader, version 2 (ARM64 UEFI modules)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains GRUB modules that have been built for use on ARM64
+ systems with UEFI.  It can be installed in parallel with other flavours,
+ but will not automatically install GRUB as the active boot loader nor
+ automatically update grub.cfg on upgrade unless grub-efi-arm64 is also
+ installed.
+Efi-Vendor: debian
+
+Package: grub-efi-arm64-dbg
+Source: grub2
+Version: 2.06-13+deb12u1~1
+Architecture: arm64
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 14314
+Depends: grub-common (= 2.06-13+deb12u1~1), grub-efi-arm64-bin (= 2.06-13+deb12u1~1)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Priority: optional
+Section: debug
+Filename: pool/main/g/grub2/grub-efi-arm64-dbg_2.06-13+deb12u1~1_arm64.deb
+Size: 2838932
+SHA256: ca5835fc8c495aae37c100f544d8508a1f4675e5661d0c117cc621ea22ac7342
+SHA1: fcb56ad24d85546983e4893a3c34fa0183861db3
+MD5sum: 36bff4c2e9399008e7c91af05defe8ce
+Description: GRand Unified Bootloader, version 2 (ARM64 UEFI debug files)
+ This package contains debugging files for grub-efi-arm64-bin.  You only
+ need these if you are trying to debug GRUB using its GDB stub.
+
+Package: grub-efi-arm64-signed-template
+Source: grub2
+Version: 2.06-13+deb12u1~1
+Architecture: arm64
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 219
+Homepage: https://www.gnu.org/software/grub/
+Priority: optional
+Section: admin
+Filename: pool/main/g/grub2/grub-efi-arm64-signed-template_2.06-13+deb12u1~1_arm64.deb
+Size: 184112
+SHA256: d428036d1ff96b6505c53aee2ff9c747e71b2965162b054ba1042eb309b9b5d4
+SHA1: 8fa6e1f2b05985262b25ea0bb6184ee78bb4edbf
+MD5sum: d707dd08e4b14769f662bd897fcc5383
+Description: GRand Unified Bootloader, version 2 (ARM64 UEFI signing template)
+ This package contains template files for grub-efi-arm64-signed.
+ This is only needed for Secure Boot signing.
+
+Package: grub-theme-starfield
+Source: grub2
+Version: 2.06-13+deb12u1~1
+Architecture: arm64
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 2782
+Depends: grub-common (= 2.06-13+deb12u1~1)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Priority: optional
+Section: admin
+Filename: pool/main/g/grub2/grub-theme-starfield_2.06-13+deb12u1~1_arm64.deb
+Size: 2154592
+SHA256: b49cab811b386adadc24e15dba4640f88f4ef499934fd53441bfbc8c11305d84
+SHA1: 2c6577ba53535e8b4962623e6dcf03fc3d1999e9
+MD5sum: a7eb52d50e7ddf92de2e1bc1a2c03a7c
+Description: GRand Unified Bootloader, version 2 (starfield theme)
+ This is the default theme for GRUB's graphical menu.
+
+Package: grub2-common
+Source: grub2
+Version: 2.06-13+deb12u1~1
+Architecture: arm64
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 1362
+Depends: grub-common (= 2.06-13+deb12u1~1), dpkg (>= 1.15.4), libc6 (>= 2.34), libdevmapper1.02.1 (>= 2:1.02.36), libefiboot1 (>= 37), libefivar1 (>= 37), liblzma5 (>= 5.1.1alpha+20120614)
+Conflicts: grub-legacy
+Breaks: grub (<< 0.97-54), grub-cloud-amd64 (<< 0.0.4), grub-coreboot (<< 2.02+dfsg1-7), grub-doc (<< 0.97-32), grub-efi-amd64 (<< 2.02+dfsg1-7), grub-efi-arm (<< 2.02+dfsg1-7), grub-efi-arm64 (<< 2.02+dfsg1-7), grub-efi-ia32 (<< 2.02+dfsg1-7), grub-efi-ia64 (<< 2.02+dfsg1-7), grub-ieee1275 (<< 2.02+dfsg1-7), grub-legacy-doc (<< 0.97-59), grub-pc (<< 2.02+dfsg1-7), grub-uboot (<< 2.02+dfsg1-7), grub-xen (<< 2.02+dfsg1-7), grub-yeeloong (<< 2.02+dfsg1-7), shim (<< 0.9+1474479173.6c180c6-0ubuntu1~)
+Replaces: grub, grub-cloud-amd64 (<< 0.0.4), grub-common (<< 1.99-1), grub-coreboot (<< 2.02+dfsg1-7), grub-doc (<< 0.97-32), grub-efi-amd64 (<< 2.02+dfsg1-7), grub-efi-arm (<< 2.02+dfsg1-7), grub-efi-arm64 (<< 2.02+dfsg1-7), grub-efi-ia32 (<< 2.02+dfsg1-7), grub-efi-ia64 (<< 2.02+dfsg1-7), grub-ieee1275 (<< 2.02+dfsg1-7), grub-legacy, grub-legacy-doc (<< 0.97-59), grub-pc (<< 2.02+dfsg1-7), grub-uboot (<< 2.02+dfsg1-7), grub-xen (<< 2.02+dfsg1-7), grub-yeeloong (<< 2.02+dfsg1-7)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Priority: optional
+Section: admin
+Filename: pool/main/g/grub2/grub2-common_2.06-13+deb12u1~1_arm64.deb
+Size: 581584
+SHA256: 8476a69c805c8783dacd3cb71c9ee5b82f52de0b74938fac51154f499a934235
+SHA1: a0a9321c92f46527345733e161b994599e3cbf23
+MD5sum: 6683177ced4b90b4ddec29c4b79c07b6
+Description: GRand Unified Bootloader (common files for version 2)
+ This package contains common files shared by the distinct flavours of GRUB.
+ The files in this package are specific to GRUB 2, and would break GRUB
+ Legacy if installed on the same system.
+
+Package: grub2-common-dbgsym
+Source: grub2
+Version: 2.06-13+deb12u1~1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 1514
+Depends: grub2-common (= 2.06-13+deb12u1~1)
+Priority: optional
+Section: debug
+Filename: pool/main/g/grub2/grub2-common-dbgsym_2.06-13+deb12u1~1_arm64.deb
+Size: 1422516
+SHA256: 8941e24910d3f8e2606ddced00ca53f6e734b4abaf377aa2fdb4ac456a36c199
+SHA1: 384d69a438f0977edbe58fbf36fd5b4eb1172725
+MD5sum: 35247460d710d51d6b8b4e1c67072f3e
+Description: debug symbols for grub2-common
+Build-Ids: fbf65dc3c1897e0524053cf347a6626deb97d7ce
+
 Package: libd3dadapter9-mesa
 Source: mesa
 Version: 1:23.0.5-0~7~git221210.120202c6757
