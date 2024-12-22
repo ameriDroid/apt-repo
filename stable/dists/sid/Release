@@ -1,0 +1,31 @@
+Origin: indieDroid
+Label: indieDroid APT Repository
+Codename: sid
+Date: Sat, 21 Dec 2024 10:10:55 UTC
+Architectures: arm64
+Components: main
+Description: Custom APT repository for software packages supporting Debian-based distributions for indieDroid Products.
+MD5Sum:
+ 2845e3536ff751ec50aeeb0db9425898 42463 main/binary-arm64/Packages
+ 0a9d5e80ed5a0e6305f60112e2f633b6 12999 main/binary-arm64/Packages.gz
+ eb021639ee00856c30b42c3c356b1909 208 main/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-arm64/Packages.gz
+SHA1:
+ 44d8a6436359be914f5aa54cfcb97a29ea7ed0d5 42463 main/binary-arm64/Packages
+ 500559a3d005e5518dd64647fbb1867578d232ac 12999 main/binary-arm64/Packages.gz
+ 8ae8f5664e5e3b99b5e18137f74a04f9306d0dd7 208 main/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-arm64/Packages.gz
+SHA256:
+ 1fd54c9b3456d213f06c7cdf73b404c1a056bf6e3dbe64ac74c3de5796ee7b17 42463 main/binary-arm64/Packages
+ b4ed117bd2a2777a535fc3ed1f304663e1682ac3ce3d2867903dca3dd6892c4f 12999 main/binary-arm64/Packages.gz
+ a4784837d29d36559f350a3b2a1511679815782db88f09d990197dc0d9238565 208 main/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-arm64/Packages.gz
+SHA512:
+ 29ce4a747606e6fc20566d27684a2fca8a9a15c51e265b1a51fafb2859c2f3c22ac621a44560be80b0d1b388875fc1480541b795a240adfd7ee17fe467448f39 42463 main/binary-arm64/Packages
+ 96d594e1cd4b2b540b912c291d31df74f7f8f38786805d9d561251f43cc5126a0f38f6e22939416a44cbb4c8d13a21c4c1e5050ce1a4371b0772d8c4b5beb210 12999 main/binary-arm64/Packages.gz
+ ea4b66cca9bed622b2974e594d015750e70bb4c9f0765c40ebee2dab36fadae5f42fb1d1ad28a9668b225fb992d69a24f45967c9c0e77af730c7fd10f5bcf674 208 main/binary-arm64/Release
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e 0 main/debian-installer/binary-arm64/Packages
+ 7e8e93f4a89ce7fae011403e14a1d53544c6e6f6b6010d61129dc27937806d2b03802610d7999eab33a4c36b0f9e001d9d76001b8354087634c1aa9c740c536f 20 main/debian-installer/binary-arm64/Packages.gz

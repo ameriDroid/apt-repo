@@ -1,0 +1,35 @@
+Origin: indieDroid
+Label: indieDroid APT Repository
+Codename: bookworm
+Architectures: arm64
+Components: main
+UdebComponents: main
+Description: Custom APT repository for software packages supporting Debian-based distributions for indieDroid Products.
+SignWith: 88ABFE5416332685008DBFA2022DBF39BF588BB9
+
+Origin: indieDroid
+Label: indieDroid APT Repository
+Codename: trixie
+Architectures: arm64
+Components: main
+UdebComponents: main
+Description: Custom APT repository for software packages supporting Debian-based distributions for indieDroid Products.
+SignWith: 88ABFE5416332685008DBFA2022DBF39BF588BB9
+
+Origin: indieDroid
+Label: indieDroid APT Repository
+Codename: sid
+Architectures: arm64
+Components: main
+UdebComponents: main
+Description: Custom APT repository for software packages supporting Debian-based distributions for indieDroid Products.
+SignWith: 88ABFE5416332685008DBFA2022DBF39BF588BB9
+
+Origin: indieDroid
+Label: indieDroid APT Repository
+Codename: oracular
+Architectures: arm64
+Components: main
+UdebComponents: main
+Description: Custom APT repository for software packages supporting Debian-based distributions for indieDroid Products.
+SignWith: 88ABFE5416332685008DBFA2022DBF39BF588BB9
