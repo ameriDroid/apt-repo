@@ -1,5 +1,0 @@
-Component: main
-Origin: indieDroid
-Label: indieDroid APT Repository
-Architecture: arm64
-Description: Custom APT repository for software packages supporting Debian-based distributions for indieDroid Products (Ubuntu Oracular testing).
