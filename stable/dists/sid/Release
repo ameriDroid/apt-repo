@@ -1,0 +1,25 @@
+Origin: indieDroid
+Label: indieDroid APT Repository
+Codename: sid
+Date: Mon, 23 Dec 2024 08:37:08 UTC
+Architectures: arm64
+Components: main
+Description: Custom APT repository for software packages supporting Debian-based distributions for indieDroid Products.
+MD5Sum:
+ 449ffd5348ea1452cc4a5c4c36628fe3 2792 main/binary-arm64/Packages
+ 0c1d912c9c687402a8b910d23d9cd355 910 main/binary-arm64/Packages.gz
+ eb021639ee00856c30b42c3c356b1909 208 main/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-arm64/Packages.gz
+SHA1:
+ ea4fa24e0f7cf4b7d390312f24bdc929020a7afb 2792 main/binary-arm64/Packages
+ 78656b497def2be2aa26a36aef6d34d0bdfa092f 910 main/binary-arm64/Packages.gz
+ 8ae8f5664e5e3b99b5e18137f74a04f9306d0dd7 208 main/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-arm64/Packages.gz
+SHA256:
+ e11d6d15b0bdd4c170c6b1fa0b261eb29d633d15e42c78c7f729bf681f95969a 2792 main/binary-arm64/Packages
+ ebb9b8846f94c050efa8faf9b74949354aae9d5c71b8c4f79ea206ba2511481f 910 main/binary-arm64/Packages.gz
+ a4784837d29d36559f350a3b2a1511679815782db88f09d990197dc0d9238565 208 main/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-arm64/Packages.gz
