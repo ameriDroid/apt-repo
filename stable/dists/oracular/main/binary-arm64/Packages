@@ -74,3 +74,20 @@ Description: Rockchip Linux kernel tools
  This package will always depend on the latest rockchip kernel tools
  available.
 
+Package: mali-g610-firmware
+Version: 1.0.5
+Architecture: all
+Maintainer: Jianfeng Liu <liujianfeng1994@gmail.com>
+Installed-Size: 271
+Multi-Arch: foreign
+Homepage: https://github.com/JeffyCN/rockchip_mirrors/blob/libmali/firmware/g610/mali_csffw.bin
+Priority: optional
+Section: kernel
+Filename: pool/main/m/mali-g610-firmware/mali-g610-firmware_1.0.5_all.deb
+Size: 54458
+SHA256: 5d66cab16426061bbca33d4c5756cc01b99d69195e0294170a97e4ae61e3506b
+SHA1: 7ad59997bddf5c34de292a22de498daee70c522e
+MD5sum: aad7caeca329a45d4e9206ab38796f39
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
