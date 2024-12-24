@@ -1,25 +1,25 @@
 Origin: indieDroid
 Label: indieDroid APT Repository
 Codename: bookworm
-Date: Tue, 24 Dec 2024 01:24:51 UTC
+Date: Tue, 24 Dec 2024 01:50:35 UTC
 Architectures: arm64
 Components: main
 Description: Custom APT repository for software packages supporting Debian-based distributions for indieDroid Products.
 MD5Sum:
- 0b4965555a90bc8e23c34acdee376e9c 36093 main/binary-arm64/Packages
- c4b80721b7a4874ce25759bc25e96d44 9525 main/binary-arm64/Packages.gz
+ 1feace206793ca817a7e61a2a87ee20b 36772 main/binary-arm64/Packages
+ 54535c0884c8a357a60ee5bdb071748d 9769 main/binary-arm64/Packages.gz
  eb021639ee00856c30b42c3c356b1909 208 main/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-arm64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-arm64/Packages.gz
 SHA1:
- abb4bca2a435381d420cb38dcc965fa68d897d54 36093 main/binary-arm64/Packages
- 77c5e62c7cc163d7f271c1374ed8aa30d6caf459 9525 main/binary-arm64/Packages.gz
+ e659ab42658baa4bd4bdd5cb3449306bc67194cf 36772 main/binary-arm64/Packages
+ 74a2193d04d0c6121fe928a2857ccd1c0f708b33 9769 main/binary-arm64/Packages.gz
  8ae8f5664e5e3b99b5e18137f74a04f9306d0dd7 208 main/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-arm64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-arm64/Packages.gz
 SHA256:
- d53812221ec49763b8db994c92955841785fc8d81b053dd6b3ee3a46ad6a25b0 36093 main/binary-arm64/Packages
- 6548f80276c5f4fae95d439805b85800cdd9eff882ede3a80323a94055eb4433 9525 main/binary-arm64/Packages.gz
+ 9985edb36ba8afbe45d19c19c974f13ba9ab297562870facb026d1d34175e744 36772 main/binary-arm64/Packages
+ f667a69323c3378881f66226186b7ecf78b845f2966c9021031eb99ba74c95a0 9769 main/binary-arm64/Packages.gz
  a4784837d29d36559f350a3b2a1511679815782db88f09d990197dc0d9238565 208 main/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-arm64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-arm64/Packages.gz

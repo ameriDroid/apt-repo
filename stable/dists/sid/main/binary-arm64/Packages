@@ -228,6 +228,25 @@ MD5sum: 35247460d710d51d6b8b4e1c67072f3e
 Description: debug symbols for grub2-common
 Build-Ids: fbf65dc3c1897e0524053cf347a6626deb97d7ce
 
+Package: imageforge
+Version: 1.1.0
+Architecture: all
+Maintainer: Panda <panda@ameridroid.com>
+Installed-Size: 49
+Depends: python3 (>= 3.11)
+Provides: imageforge
+Homepage: https://github.com/ameriDroid/imageforge
+Priority: optional
+Section: python
+Filename: pool/main/i/imageforge/imageforge_1.1.0_all.deb
+Size: 8080
+SHA256: 4b6cc57bd6a766625db73a2f6e9ddd219af9abe7a3ee7dfb1dfcd6465d68276f
+SHA1: 742c62775f6e8bc3d98608a1eb4039e3ef1818e7
+MD5sum: d4d851d5d5572ff8499411352383be4b
+Description: Python library designed for building Linux distribution images.
+ This library is designed to make it easy to build Linux distribution images
+ for a variety of platforms, specifically ARM.
+
 Package: libd3dadapter9-mesa
 Source: mesa
 Version: 1:23.0.5-0~7~git221210.120202c6757
