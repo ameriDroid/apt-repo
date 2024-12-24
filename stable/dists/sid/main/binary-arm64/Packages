@@ -630,6 +630,47 @@ MD5sum: 2cb34fe828f4666d4af257a05a14057d
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
 
+Package: linux-buildinfo-6.1.0-1023-rockchip
+Source: linux-rockchip
+Version: 6.1.0-1023.24
+Architecture: arm64
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 1631
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-rockchip/linux-buildinfo-6.1.0-1023-rockchip_6.1.0-1023.24_arm64.deb
+Size: 436302
+SHA256: de5e34a1619c6bca6ff677e4a532c5ae22d857d4b2aab083f8adec3ce25a1d11
+SHA1: 3db4f55c0e966ea405d7f0d2bfda0d4a21195724
+MD5sum: 5a486a1d489aff61345c438edb96a9bf
+Description: Linux kernel buildinfo for version 6.1.0 on ARMv8 SMP
+ This package contains the Linux kernel buildinfo for version 6.1.0 on
+ ARMv8 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-headers-6.1.0-1023-rockchip
+Source: linux-rockchip
+Version: 6.1.0-1023.24
+Architecture: arm64
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 5368
+Depends: linux-rockchip-headers-6.1.0-1023, libc6 (>= 2.38)
+Provides: linux-headers, linux-headers-3.0
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-rockchip/linux-headers-6.1.0-1023-rockchip_6.1.0-1023.24_arm64.deb
+Size: 990012
+SHA256: f53389bebfb02582b8faefaa7282932712d915c8bb731f2e21dfe33a4051b0b7
+SHA1: 8be5806191ea206a40f056142aeaf86e1b9ae29f
+MD5sum: 87a7f49c7edfc1f0a9173409e3dca925
+Description: Linux kernel headers for version 6.1.0 on ARMv8 SMP
+ This package provides kernel header files for version 6.1.0 on
+ ARMv8 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-6.1.0-1023/debian.README.gz for details.
+
 Package: linux-headers-rockchip
 Source: linux-meta-rockchip
 Version: 6.1.0.1023.24
@@ -647,6 +688,36 @@ MD5sum: 53a28834bd9183b367d08334f23a0871
 Description: Rockchip Linux kernel headers
  This package will always depend on the latest rockchip kernel headers
  available.
+
+Package: linux-image-6.1.0-1023-rockchip
+Source: linux-rockchip
+Version: 6.1.0-1023.24
+Architecture: arm64
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 44192
+Depends: kmod, linux-base (>= 4.5ubuntu1~16.04.1), linux-modules-6.1.0-1023-rockchip
+Recommends: u-boot-menu, initramfs-tools | linux-initramfs-tool
+Suggests: fdutils, linux-rockchip-tools, linux-headers-6.1.0-1023-rockchip
+Conflicts: linux-image-unsigned-6.1.0-1023-rockchip
+Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, redhat-cluster-modules
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-rockchip/linux-image-6.1.0-1023-rockchip_6.1.0-1023.24_arm64.deb
+Size: 45260992
+SHA256: 636a0a76b4be3648948fa77e8190cc97f5c7a1beea80931fc2d06e8d1283c9ee
+SHA1: c22c7128f9a07ca7243fb81984bd5698df530a6d
+MD5sum: 9c051627b51c962c2cc9b85542f86ec8
+Description: Linux kernel image for version 6.1.0 on ARMv8 SMP
+ This package contains the Linux kernel image for version 6.1.0 on
+ ARMv8 SMP.
+ .
+ Supports ROCKCHIP processors.
+ .
+ Geared toward Rockchip hardware.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-rockchip meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
 
 Package: linux-image-rockchip
 Source: linux-meta-rockchip
@@ -668,6 +739,33 @@ Description: Rockchip Linux kernel image
  This package will always depend on the latest rockchip kernel image
  available.
 
+Package: linux-modules-6.1.0-1023-rockchip
+Source: linux-rockchip
+Version: 6.1.0-1023.24
+Architecture: arm64
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 154405
+Depends: linux-image-6.1.0-1023-rockchip | linux-image-unsigned-6.1.0-1023-rockchip
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-rockchip/linux-modules-6.1.0-1023-rockchip_6.1.0-1023.24_arm64.deb
+Size: 24784030
+SHA256: 7f72194a81b7839e0cdcd439b9ccb0fec94b205fbc27622514b6ec03c26681bb
+SHA1: 2e52c29a7ff90d7663d0df43630a65f859325601
+MD5sum: de35c2d9435933e628e3cbe5dedc8d49
+Description: Linux kernel extra modules for version 6.1.0 on ARMv8 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports ROCKCHIP processors.
+ .
+ Geared toward Rockchip hardware.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-rockchip meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-rockchip
 Source: linux-meta-rockchip
 Version: 6.1.0.1023.24
@@ -686,6 +784,26 @@ MD5sum: 78d05455776905654cd6715d65947f19
 Description: Complete Rockchip Linux kernel and headers
  This package will always depend on the latest complete rockchip Linux kernel
  and headers.
+
+Package: linux-rockchip-headers-6.1.0-1023
+Source: linux-rockchip
+Version: 6.1.0-1023.24
+Architecture: arm64
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 81966
+Depends: coreutils
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-rockchip/linux-rockchip-headers-6.1.0-1023_6.1.0-1023.24_arm64.deb
+Size: 13279784
+SHA256: 26ca20326006a2774d45803f9ebc8868c95ff9f50262a20bf6cf2d0be2664194
+SHA1: bed3868afe53cf60dbf746c75f37785860910a0f
+MD5sum: 3cdecac1b0e6a0fbdb3e820310e19d58
+Description: Header files related to Linux kernel version 6.1.0-1023
+ This package provides kernel header files for version 6.1.0-1023, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-rockchip-headers-6.1.0-1023/debian.README.gz for details
 
 Package: linux-tools-rockchip
 Source: linux-meta-rockchip
