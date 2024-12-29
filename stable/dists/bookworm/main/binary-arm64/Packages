@@ -16,6 +16,7 @@ Priority: optional
 Section: admin
 Filename: pool/main/g/grub2/grub-common_2.06-13+deb12u1~1_arm64.deb
 Size: 2693368
+SHA512: f2513f90c51954cbaef4d8eddc4f8178191b8837353096827a51fa09a4749000a4b951d4371ca321255b197898355c9749772eb4905a88e51439e0a88b5c49ae
 SHA256: ecc9f8b53aca46094f4251691051f789eb174cb8095c836a4b1fcc6b9d65e160
 SHA1: a8db8687ef7cd9899902a62521769116a29c1e30
 MD5sum: 71ef2da6baf754831c402293ae13e9c2
@@ -39,6 +40,7 @@ Priority: optional
 Section: debug
 Filename: pool/main/g/grub2/grub-common-dbgsym_2.06-13+deb12u1~1_arm64.deb
 Size: 11417416
+SHA512: eb0838b3a56677d83d95bb97a4a726af84e41fb30da4a23dcc1a232c0bf55448c7afec77d5b90af0b816ba07d2a67086d17a16278500e442c8e22dc67b7c59eb
 SHA256: 876abc7eab8f5aee5d9f2b2db27cde7805579b83a1a57259f94da6d81939e4e4
 SHA1: 8f80b887a657560bc85c55ba7913c8df7b9495d2
 MD5sum: 83589957405ff0c1ef84a5709560f674
@@ -58,6 +60,7 @@ Priority: optional
 Section: admin
 Filename: pool/main/g/grub2/grub-efi_2.06-13+deb12u1~1_arm64.deb
 Size: 2388
+SHA512: b81cec24616a9dcc479b6255c31c62954865d5bbff5bd00449a5261a7070c4730c41c2e0a4490c8ea2c4270284713a5d229f00b3fc28b7425d6a02784a02e059
 SHA256: 8caee9ffc6ced5faf07f66a318dc1bfaca7727f087b81876ffa9d348f3ede5a3
 SHA1: 6f49270d360b037edd2232ca66296fa1e254fa07
 MD5sum: c1dc53bce75196d3b77112df17cd99dc
@@ -78,6 +81,7 @@ Priority: optional
 Section: admin
 Filename: pool/main/g/grub2/grub-efi-arm64_2.06-13+deb12u1~1_arm64.deb
 Size: 45568
+SHA512: 6d749b0983758e573442cb3d3d78065679d330c3e1e791abd7b642782c4e56984f3d8c1cc12daba653eaa3c4b3ea5bab803ade0b2a2d9e647bd9fa35dac20fa6
 SHA256: 4b2a4bc1e44f1e7ce5dadcf05a1b6d0477057a09efa689f0ffc2fe24074dabdd
 SHA1: 16de36a759b81d0df9fe2b714b7e322df2c132f0
 MD5sum: 593156a614fc85518a5fc5a51ae92166
@@ -109,6 +113,7 @@ Priority: optional
 Section: admin
 Filename: pool/main/g/grub2/grub-efi-arm64-bin_2.06-13+deb12u1~1_arm64.deb
 Size: 1401632
+SHA512: 8920156f373471f2c524a4d1b11c467d3be3f290a8676de21d8f0245a717c8205600a1881fc0af65783a88cfffb6c204982c1edb2a0c707c1f7dbf68baab6a15
 SHA256: 2525b98c06253bc9e3f63d77ca1cdac423032c166e87b642fbcd39c1fde15ba1
 SHA1: fda658ba9f56cd3e3b6acb8834252e0d13be2f7a
 MD5sum: 8c01cbbdb24dee63eac76d46d1e38da2
@@ -142,6 +147,7 @@ Priority: optional
 Section: debug
 Filename: pool/main/g/grub2/grub-efi-arm64-dbg_2.06-13+deb12u1~1_arm64.deb
 Size: 2838932
+SHA512: 54ea61908ae974686b7a64acbe05e5057505ee5c7743ab03e2f72afee7513cab0dca65d1cec3e6b2081fa8a02bf9246b9281c500dbdc167c76ca9c1b6b6ded72
 SHA256: ca5835fc8c495aae37c100f544d8508a1f4675e5661d0c117cc621ea22ac7342
 SHA1: fcb56ad24d85546983e4893a3c34fa0183861db3
 MD5sum: 36bff4c2e9399008e7c91af05defe8ce
@@ -160,6 +166,7 @@ Priority: optional
 Section: admin
 Filename: pool/main/g/grub2/grub-efi-arm64-signed-template_2.06-13+deb12u1~1_arm64.deb
 Size: 184112
+SHA512: 57c2a5d7877352d91f1ebf9f2ae4fcca54992773ed8d1133f63c29966217686df62d3d2752c6581a87ef0053d9b6f8969efb58d58b3fae4f9f7eb62c3aa7162d
 SHA256: d428036d1ff96b6505c53aee2ff9c747e71b2965162b054ba1042eb309b9b5d4
 SHA1: 8fa6e1f2b05985262b25ea0bb6184ee78bb4edbf
 MD5sum: d707dd08e4b14769f662bd897fcc5383
@@ -180,6 +187,7 @@ Priority: optional
 Section: admin
 Filename: pool/main/g/grub2/grub-theme-starfield_2.06-13+deb12u1~1_arm64.deb
 Size: 2154592
+SHA512: 8e70b1dd33c277482fa9b62dd9b5043c95521f611abb5339938d13b206c5d6f8635a993830e1b2fb57622352a72dac5ddb56bafd9e7d6466f18566d96e96a940
 SHA256: b49cab811b386adadc24e15dba4640f88f4ef499934fd53441bfbc8c11305d84
 SHA1: 2c6577ba53535e8b4962623e6dcf03fc3d1999e9
 MD5sum: a7eb52d50e7ddf92de2e1bc1a2c03a7c
@@ -202,6 +210,7 @@ Priority: optional
 Section: admin
 Filename: pool/main/g/grub2/grub2-common_2.06-13+deb12u1~1_arm64.deb
 Size: 581584
+SHA512: 7d4a755caf96bc849f369838c4f96ac3db6c34ea839f380bb04c1c11f8b6895e04969cebdf4658fa69af9ffec7b7fd6776e066db9096a56033a831741502de81
 SHA256: 8476a69c805c8783dacd3cb71c9ee5b82f52de0b74938fac51154f499a934235
 SHA1: a0a9321c92f46527345733e161b994599e3cbf23
 MD5sum: 6683177ced4b90b4ddec29c4b79c07b6
@@ -222,6 +231,7 @@ Priority: optional
 Section: debug
 Filename: pool/main/g/grub2/grub2-common-dbgsym_2.06-13+deb12u1~1_arm64.deb
 Size: 1422516
+SHA512: 0695c2f27223422906d783f8b2fdd6b91d61e851cdfcb79b392c8b77145cd08d8e93af45a4602dc908d7170521ca08d68b43addeb55f2745c614b7b365e55db5
 SHA256: 8941e24910d3f8e2606ddced00ca53f6e734b4abaf377aa2fdb4ac456a36c199
 SHA1: 384d69a438f0977edbe58fbf36fd5b4eb1172725
 MD5sum: 35247460d710d51d6b8b4e1c67072f3e
@@ -240,6 +250,7 @@ Priority: optional
 Section: python
 Filename: pool/main/i/imageforge/imageforge_1.1.0_all.deb
 Size: 8080
+SHA512: 570ba5e08fb84475be1597b44cf52a5bf69c53867bfe4f1fedc7b5cdc2359a42655240e2de4e1467315533a161c7a01524f196162856f9e4e35343a3a3ee88ce
 SHA256: 4b6cc57bd6a766625db73a2f6e9ddd219af9abe7a3ee7dfb1dfcd6465d68276f
 SHA1: 742c62775f6e8bc3d98608a1eb4039e3ef1818e7
 MD5sum: d4d851d5d5572ff8499411352383be4b
@@ -260,6 +271,7 @@ Priority: optional
 Section: libs
 Filename: pool/main/m/mesa/libd3dadapter9-mesa_23.0.5-0~7~git221210.120202c6757_arm64.deb
 Size: 3823764
+SHA512: 2b1e08478e9af5e69c22e93ebcc0ee27553eb62910c67d438e4746a751c32afe1e0d22d702b963b593640e9a6095611dbd8be97dcb98a5d22cbd11383231aaf7
 SHA256: c30d9b9d153966bf79a69ebe8536b4369c4b1b590f74c371146e3ef6a6969040
 SHA1: 1d2723028383badced7ce84ef1e1b8c62146013a
 MD5sum: 628757b408125623f6596cf71ba1c234
@@ -281,6 +293,7 @@ Priority: optional
 Section: libdevel
 Filename: pool/main/m/mesa/libd3dadapter9-mesa-dev_23.0.5-0~7~git221210.120202c6757_arm64.deb
 Size: 16600
+SHA512: 09679b86fffd53a67f0c12643874960bdafd379179a6489ea673da638ee1bdd16bc7049a15c0ab967599529abad463f119b0f5e036028336905f113d104c0b88
 SHA256: 090d4ce33da37f76a5722146d9f05ec520bc49ca54dbc3fea08ae7692d041720
 SHA1: 2fa8493e6b25e9efb3d8009bcead1a3c513ec8cf
 MD5sum: cc0888761a09bc0e23cbec78b787d425
@@ -305,6 +318,7 @@ Priority: optional
 Section: libs
 Filename: pool/main/m/mesa/libegl-mesa0_23.0.5-0~7~git221210.120202c6757_arm64.deb
 Size: 121608
+SHA512: ba7f57099effe7c9d21a03ecc9c4d691331f1e7ea07d638fe1da0d83545e21e739f1fb761d7152005a734a7973fc55a377027ff7f0e867024c2d63b9e4a7d043
 SHA256: b395685b36c4c3356ef7c39c2f4ad175829b67e89ee4bc249226f255c82b3754
 SHA1: 837ef028e46bc4d7718bdbdf59b76cdea0bae243
 MD5sum: 5a5006589a17b692eaa99f7626722079
@@ -328,6 +342,7 @@ Priority: optional
 Section: oldlibs
 Filename: pool/main/m/mesa/libegl1-mesa_23.0.5-0~7~git221210.120202c6757_arm64.deb
 Size: 12418
+SHA512: 3d25908df79367d0671c4450bad2bd5bb7551cff1f20605a4e03f3f52f77b8aecd6fc1b8623f39fc6f4a5c99baa8d6e32eee89fbfa97cd8c29b14238074d8b21
 SHA256: 9f7aaada1c4d97b7125b7056a49976c7c2914bc9a2b6e0c82db92976e25ce3fc
 SHA1: 2d3f35566f07bc837c130eb140e33d2287cde7ca
 MD5sum: b6811daf642fb294a46fea0f2ab4d8f7
@@ -347,6 +362,7 @@ Priority: optional
 Section: libdevel
 Filename: pool/main/m/mesa/libegl1-mesa-dev_23.0.5-0~7~git221210.120202c6757_arm64.deb
 Size: 16812
+SHA512: e5f3c8f83f2b16425b1b8ddbbf43060cc22c1f4a577a31e60aa279bc0aed06b46ab1b879a357baf94ce714b1c5a017b13f138c0c58941c50f486ba8b811bcf3f
 SHA256: 97fbbad73b6d1cd68a05d81a9ee0038e08b3b7eabfa8ecd7d4753ae7ce82e56e
 SHA1: 0c72a16449dc922a6cd692a65d83f3f78c54bf46
 MD5sum: ca53abd3e2c9f6baa42f027a8111b5a2
@@ -372,6 +388,7 @@ Priority: optional
 Section: libdevel
 Filename: pool/main/m/mesa/libgbm-dev_23.0.5-0~7~git221210.120202c6757_arm64.deb
 Size: 16546
+SHA512: 716894a4871d90e5d93d7ab5d05e91d16703961d21820a3cfa631c73d827302a51a634316a50542b8e3cf0918b54de5e6b8c8e7f3433670f7dcc688f76006fd3
 SHA256: 3d394be3750098cb4d0a6c1f3468b39957b715db67ea567b1c67b9274de9128f
 SHA1: 2807c2d66680a67337df55e74d5f1a9bcd2495f2
 MD5sum: 1e8b8b912eaec1c9da3b58d095b3fa2c
@@ -397,6 +414,7 @@ Priority: optional
 Section: libs
 Filename: pool/main/m/mesa/libgbm1_23.0.5-0~7~git221210.120202c6757_arm64.deb
 Size: 36924
+SHA512: a1acbc236dcf1a4a71cb4fdb4351b8d3d566127f4cc987758b8d616f41edba61ed90e00394fcafcce25bef9fd8bb81401d88434d3d204675993978620fab2f8b
 SHA256: 168e7b2767a4ac987d04edf4caf00e3da4097cf3a253b6ed41ed91465403e098
 SHA1: 470dd7af977ff9b71cdb5d2da228131d420fd34c
 MD5sum: fb53de5d12e8504cd663aede2be205a4
@@ -419,6 +437,7 @@ Priority: optional
 Section: oldlibs
 Filename: pool/main/m/mesa/libgl1-mesa-dev_23.0.5-0~7~git221210.120202c6757_arm64.deb
 Size: 12430
+SHA512: 89679c6d84d2e7cc3feba275ab1a30e426da253308b601635ca4db050c3b26bdb85d89e4002a3de763683de91686fc659081199100623126f37703d8231892c8
 SHA256: aa7ef168146e6d04712c98b59057c9bb1c84bbfa0cfda2d77d03472582128235
 SHA1: 26f9f6ce3dacf84ae978982abef05fa978993a8c
 MD5sum: 3699e946450cdad5a6cb521afabc3eaa
@@ -438,6 +457,7 @@ Priority: optional
 Section: libs
 Filename: pool/main/m/mesa/libgl1-mesa-dri_23.0.5-0~7~git221210.120202c6757_arm64.deb
 Size: 5586002
+SHA512: 6085bba117103cec6f946864c63ef0835289857d88a0846369ac70eb2a5cff6ec2e3ae579a18f9d43e6a821c41d6fa649a3651ac8eb12bdd5ea83aa78d6d370b
 SHA256: 962e361844ca884e6b444db0f3f37736a93f1f0ddc33915b29cfbba5423540e8
 SHA1: 11b9acdc634945a52b0575414dfa9433c3c1b5fc
 MD5sum: db778398890f628ea070ca25edc5cf6d
@@ -465,6 +485,7 @@ Priority: optional
 Section: oldlibs
 Filename: pool/main/m/mesa/libgl1-mesa-glx_23.0.5-0~7~git221210.120202c6757_arm64.deb
 Size: 12430
+SHA512: 30feb42b17b00e3c0eef5bd6597dad3ae4fedd855997a8c203dce67c76f58dfaec308a320511fd9800aecb80c1183a982e54d63d4a86c3f6307927a6b95c6f59
 SHA256: c4307c02143a749898276766553ee81a5f4395d3394bcd8428be0f5fc02d3d70
 SHA1: bc600563c6c01e12dd99892be30548c3e623e7b9
 MD5sum: 20cdb1d0fa929cb42f14fc558930bc1c
@@ -484,6 +505,7 @@ Priority: optional
 Section: libs
 Filename: pool/main/m/mesa/libglapi-mesa_23.0.5-0~7~git221210.120202c6757_arm64.deb
 Size: 55594
+SHA512: dd511d25a59c43521b36ef3281dc01f9dfeca761b360b90d0d2914469b97e8d4e594c4db88acda78c9ca1ecbd4ec6570372c14206c864341b045197a11326e64
 SHA256: 5a0799b1237fd4ac319a624f09bfcb8328863b486817453dd3d8393e2340bfbb
 SHA1: acc746f47ed9d84761b7b4de3a96f921eef2cf88
 MD5sum: 8d5b5f4eff37f71d76dbb853243b66e7
@@ -505,6 +527,7 @@ Priority: optional
 Section: oldlibs
 Filename: pool/main/m/mesa/libgles2-mesa_23.0.5-0~7~git221210.120202c6757_arm64.deb
 Size: 12416
+SHA512: de6d135fad94b63f42e06e66ddb3d2aba10c3588ca1807b1a4cd31a6663c6c78d61eb80c08366c7dc58e827bee8c24367a304ab21bd29cf3815dc0428ef7bfe1
 SHA256: 7010bf3cb6fdf14bb422077bbc85553a594268b327c3b72c01729eea5024b2fe
 SHA1: d52b9c3d0c82b038aa9bf837781ef3022cf0d316
 MD5sum: 0acc083c31c37ec5fc8095159eac48bd
@@ -524,6 +547,7 @@ Priority: optional
 Section: oldlibs
 Filename: pool/main/m/mesa/libgles2-mesa-dev_23.0.5-0~7~git221210.120202c6757_arm64.deb
 Size: 12428
+SHA512: c5e937966e49bbaafdbe447cd879d87f6c43b63b054874af77968ff02c099057d5f8110133b94a4ee9f2e2b8860b9a0e48af7481b679c7fe0b9cef41c973295c
 SHA256: 1e2f72fddb52ee0215382e70c14be1e2f73182cd582eec183f560a332f0b9a08
 SHA1: 64d943c758d1862b60ef26113befb5ffb3bed7f8
 MD5sum: b49421ae8b0bfab55bb20706d9cff689
@@ -545,6 +569,7 @@ Priority: optional
 Section: libs
 Filename: pool/main/m/mesa/libglx-mesa0_23.0.5-0~7~git221210.120202c6757_arm64.deb
 Size: 172080
+SHA512: 661bda9c550b48f1940540fc6e8e2d4a2cea93cd5b91bd45e3318865594afb32787914d9acea5ca74a8a597939ee40540c2568bccb15fa3d29e2d87b09867f63
 SHA256: 56245c01fd508ec41f0a5063456c1ae75851ba863d791f2fbe35b1a519b0fa7f
 SHA1: 9c5a554c2fd0d944543facb551f95c0ee126e9c9
 MD5sum: edfb781d2b85ffc6a4f563cb4fc1e440
@@ -575,6 +600,7 @@ Priority: optional
 Section: libs
 Filename: pool/main/m/mesa/libosmesa6_23.0.5-0~7~git221210.120202c6757_arm64.deb
 Size: 12858
+SHA512: 6d4d159753ea2fc5c594dde0d9a52f20be7e1a3b6edac26beab0557d42290172fdc3f3ec20b03eaead6a7dc2925d5ccefe7cb28c5250fba91f02870417b2699d
 SHA256: 7140bffa8b609a94a04b49d9a6bb04de2292c680eea7d3dae520347add3c99be
 SHA1: e0ef36cd49caca79afff686810eba119715a19b9
 MD5sum: 63889ab83a1961d18996c33bc41f974a
@@ -602,6 +628,7 @@ Priority: optional
 Section: libdevel
 Filename: pool/main/m/mesa/libosmesa6-dev_23.0.5-0~7~git221210.120202c6757_arm64.deb
 Size: 12574
+SHA512: 36e3156543e7c99e9243b1f409af3f42d96a44066dbe9b10064f0b0d77800d7a6e333b7a54420a9f427a1145eaaa0c0108dc52d299613d48f93223abfd066dcb
 SHA256: 31392d339833283f05f77d5540e54480fc49fa0872195bdb4b74b20db567dc72
 SHA1: dcf578c4c2d235eb599710b1c86c9089a286971d
 MD5sum: 3bd9e1de629d4fc0e234149d93d451d8
@@ -624,52 +651,12 @@ Priority: optional
 Section: oldlibs
 Filename: pool/main/m/mesa/libwayland-egl1-mesa_23.0.5-0~7~git221210.120202c6757_arm64.deb
 Size: 12438
+SHA512: 3da7b335d8bc282465bdf2fa17019a08262abb3d0c5437eaeabc4899177dc83d7dda31ffa8a65f3117ebbbd0b669b6c55763669a38fba28f0aee2e242eacfa1b
 SHA256: fcc85b63c4f54e6797c0c4888790c442c1f6d246f7aeb7d27d80bf90fd0158b4
 SHA1: 85c8fd6de7a000aa14bcbf07ea7be9ee8f222169
 MD5sum: 2cb34fe828f4666d4af257a05a14057d
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
-
-Package: linux-buildinfo-6.1.0-1023-rockchip
-Source: linux-rockchip
-Version: 6.1.0-1023.24
-Architecture: arm64
-Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Installed-Size: 1631
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-rockchip/linux-buildinfo-6.1.0-1023-rockchip_6.1.0-1023.24_arm64.deb
-Size: 436302
-SHA256: de5e34a1619c6bca6ff677e4a532c5ae22d857d4b2aab083f8adec3ce25a1d11
-SHA1: 3db4f55c0e966ea405d7f0d2bfda0d4a21195724
-MD5sum: 5a486a1d489aff61345c438edb96a9bf
-Description: Linux kernel buildinfo for version 6.1.0 on ARMv8 SMP
- This package contains the Linux kernel buildinfo for version 6.1.0 on
- ARMv8 SMP.
- .
- You likely do not want to install this package.
-
-Package: linux-headers-6.1.0-1023-rockchip
-Source: linux-rockchip
-Version: 6.1.0-1023.24
-Architecture: arm64
-Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Installed-Size: 5368
-Depends: linux-rockchip-headers-6.1.0-1023, libc6 (>= 2.38)
-Provides: linux-headers, linux-headers-3.0
-Priority: optional
-Section: devel
-Filename: pool/main/l/linux-rockchip/linux-headers-6.1.0-1023-rockchip_6.1.0-1023.24_arm64.deb
-Size: 990012
-SHA256: f53389bebfb02582b8faefaa7282932712d915c8bb731f2e21dfe33a4051b0b7
-SHA1: 8be5806191ea206a40f056142aeaf86e1b9ae29f
-MD5sum: 87a7f49c7edfc1f0a9173409e3dca925
-Description: Linux kernel headers for version 6.1.0 on ARMv8 SMP
- This package provides kernel header files for version 6.1.0 on
- ARMv8 SMP.
- .
- This is for sites that want the latest kernel headers.  Please read
- /usr/share/doc/linux-headers-6.1.0-1023/debian.README.gz for details.
 
 Package: linux-headers-rockchip
 Source: linux-meta-rockchip
@@ -682,42 +669,13 @@ Priority: optional
 Section: kernel
 Filename: pool/main/l/linux-meta-rockchip/linux-headers-rockchip_6.1.0.1023.24_arm64.deb
 Size: 2416
+SHA512: 770fc75b45f0df87fcf9c59e467b2a9aff2ccea15f2197e499ce9240a334ca9ece089d6c9e2fb902420c061c6edcfc68ce449e48cb36c7ffdf165b46cb8eedae
 SHA256: 5912b32c00b2ce1141d01769d0717ba901f24393d8b697964d9cc7991345d9a5
 SHA1: 4d8801b37ff85500dcd50b6fe4bac06a99f46284
 MD5sum: 53a28834bd9183b367d08334f23a0871
 Description: Rockchip Linux kernel headers
  This package will always depend on the latest rockchip kernel headers
  available.
-
-Package: linux-image-6.1.0-1023-rockchip
-Source: linux-rockchip
-Version: 6.1.0-1023.24
-Architecture: arm64
-Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Installed-Size: 44192
-Depends: kmod, linux-base (>= 4.5ubuntu1~16.04.1), linux-modules-6.1.0-1023-rockchip
-Recommends: u-boot-menu, initramfs-tools | linux-initramfs-tool
-Suggests: fdutils, linux-rockchip-tools, linux-headers-6.1.0-1023-rockchip
-Conflicts: linux-image-unsigned-6.1.0-1023-rockchip
-Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, redhat-cluster-modules
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-rockchip/linux-image-6.1.0-1023-rockchip_6.1.0-1023.24_arm64.deb
-Size: 45260992
-SHA256: 636a0a76b4be3648948fa77e8190cc97f5c7a1beea80931fc2d06e8d1283c9ee
-SHA1: c22c7128f9a07ca7243fb81984bd5698df530a6d
-MD5sum: 9c051627b51c962c2cc9b85542f86ec8
-Description: Linux kernel image for version 6.1.0 on ARMv8 SMP
- This package contains the Linux kernel image for version 6.1.0 on
- ARMv8 SMP.
- .
- Supports ROCKCHIP processors.
- .
- Geared toward Rockchip hardware.
- .
- You likely do not want to install this package directly. Instead, install
- the linux-rockchip meta-package, which will ensure that upgrades work
- correctly, and that supporting packages are also installed.
 
 Package: linux-image-rockchip
 Source: linux-meta-rockchip
@@ -732,39 +690,13 @@ Priority: optional
 Section: kernel
 Filename: pool/main/l/linux-meta-rockchip/linux-image-rockchip_6.1.0.1023.24_arm64.deb
 Size: 2472
+SHA512: 57bea413438a43b6439222f57afbfb40bdaf3f220ab973ed4d996378d26845aaefde5a4f84ed0dae95aae64354920c3287672e3c2d3a8a85978454d51c881e79
 SHA256: b338e1affbaa9fdb493362d88f2c85dd7783adf971f004ff14e5fb3d556f329e
 SHA1: c602a4bf2f2a0a25732b61c67966778be9cf79f3
 MD5sum: 038955a21734d9ecc7225a2e00c56f2a
 Description: Rockchip Linux kernel image
  This package will always depend on the latest rockchip kernel image
  available.
-
-Package: linux-modules-6.1.0-1023-rockchip
-Source: linux-rockchip
-Version: 6.1.0-1023.24
-Architecture: arm64
-Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Installed-Size: 154405
-Depends: linux-image-6.1.0-1023-rockchip | linux-image-unsigned-6.1.0-1023-rockchip
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-rockchip/linux-modules-6.1.0-1023-rockchip_6.1.0-1023.24_arm64.deb
-Size: 24784030
-SHA256: 7f72194a81b7839e0cdcd439b9ccb0fec94b205fbc27622514b6ec03c26681bb
-SHA1: 2e52c29a7ff90d7663d0df43630a65f859325601
-MD5sum: de35c2d9435933e628e3cbe5dedc8d49
-Description: Linux kernel extra modules for version 6.1.0 on ARMv8 SMP
- Contains the corresponding System.map file, the modules built by the
- packager, and scripts that try to ensure that the system is not left in an
- unbootable state after an update.
- .
- Supports ROCKCHIP processors.
- .
- Geared toward Rockchip hardware.
- .
- You likely do not want to install this package directly. Instead, install
- the linux-rockchip meta-package, which will ensure that upgrades work
- correctly, and that supporting packages are also installed.
 
 Package: linux-rockchip
 Source: linux-meta-rockchip
@@ -778,32 +710,13 @@ Priority: optional
 Section: kernel
 Filename: pool/main/l/linux-meta-rockchip/linux-rockchip_6.1.0.1023.24_arm64.deb
 Size: 2468
+SHA512: 4e1260109d10f64ba959fcdae77c5c62ccf459a898e706580446388b2186666556b4f424e9c765cedaa0cc23a8fd62cd827ccf728d08bff19d414c92964aa0b1
 SHA256: 08500bb25acde75ec518470eaf9dfc23187e744d7500ef8aded0900229cb667c
 SHA1: bec53cd3d6ced87a3acf2c39549af6b456108ef2
 MD5sum: 78d05455776905654cd6715d65947f19
 Description: Complete Rockchip Linux kernel and headers
  This package will always depend on the latest complete rockchip Linux kernel
  and headers.
-
-Package: linux-rockchip-headers-6.1.0-1023
-Source: linux-rockchip
-Version: 6.1.0-1023.24
-Architecture: arm64
-Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Installed-Size: 81966
-Depends: coreutils
-Multi-Arch: foreign
-Priority: optional
-Section: devel
-Filename: pool/main/l/linux-rockchip/linux-rockchip-headers-6.1.0-1023_6.1.0-1023.24_arm64.deb
-Size: 13279784
-SHA256: 26ca20326006a2774d45803f9ebc8868c95ff9f50262a20bf6cf2d0be2664194
-SHA1: bed3868afe53cf60dbf746c75f37785860910a0f
-MD5sum: 3cdecac1b0e6a0fbdb3e820310e19d58
-Description: Header files related to Linux kernel version 6.1.0-1023
- This package provides kernel header files for version 6.1.0-1023, for sites
- that want the latest kernel headers. Please read
- /usr/share/doc/linux-rockchip-headers-6.1.0-1023/debian.README.gz for details
 
 Package: linux-tools-rockchip
 Source: linux-meta-rockchip
@@ -817,6 +730,7 @@ Priority: optional
 Section: kernel
 Filename: pool/main/l/linux-meta-rockchip/linux-tools-rockchip_6.1.0.1023.24_arm64.deb
 Size: 2424
+SHA512: 29d6083be53e1864ed25f23fd90aae57bfb85fb45cad1cc6892d49135054f0643420bc4c3d21dadfce7d403fb542f1029ee5b76c3bf1cb99da31f806206ee4d7
 SHA256: a91563e20ec7714780f5142b8d0d52362156fb6bc93e4167f97d1f9de0cb0cff
 SHA1: 13c9bf0ba89ce16255e65b3c2753f13ed415ab91
 MD5sum: a88365ea9d66962d6d42c67f67b0afae
@@ -835,6 +749,7 @@ Priority: optional
 Section: kernel
 Filename: pool/main/m/mali-g610-firmware/mali-g610-firmware_1.0.5_all.deb
 Size: 54458
+SHA512: ef3fcb37302aa320f2be894841781f6f6c5963d4eee14d087794c3eb6e386cebd664051205b75e2d1ee378f474fc607eec1c8d6b3013f387ee1f4086a33292bb
 SHA256: 5d66cab16426061bbca33d4c5756cc01b99d69195e0294170a97e4ae61e3506b
 SHA1: 7ad59997bddf5c34de292a22de498daee70c522e
 MD5sum: aad7caeca329a45d4e9206ab38796f39
@@ -856,6 +771,7 @@ Priority: optional
 Section: libdevel
 Filename: pool/main/m/mesa/mesa-common-dev_23.0.5-0~7~git221210.120202c6757_arm64.deb
 Size: 1987190
+SHA512: f54c982f7c76bb1c8ee87febbb6c8cf852c6e0a622b561e18c0112a5b58e74a92b8c96b1d13c22e90b9c77f65f0a823dbec8135f3861428b9ebedbd7a267baf8
 SHA256: 1048a46f0db8be0097f67ca817bc46463bb08420dea4c9d38c83afbb22608039
 SHA1: 0f87882f4bfab6e4fb58629eee820fd79efc5671
 MD5sum: e1352b98032e071dba26f3d933944b55
@@ -878,6 +794,7 @@ Priority: optional
 Section: libs
 Filename: pool/main/m/mesa/mesa-opencl-icd_23.0.5-0~7~git221210.120202c6757_arm64.deb
 Size: 12726
+SHA512: 09064cf0d06826eda29fa9b770bc2c887bfc45dbe27a09e6c377af4ff48e6c23c4d350986121cdf0476718bf6514209e3b7d8aca269aefe1276fc3e17e1643f1
 SHA256: 5d9b4d48704ad1f3066b9c8f4d416e985644f85235e33216d8ca4bd0d195a775
 SHA1: 16ef8029179ae1ac23a467c9acb8065be5a86420
 MD5sum: 8d42cb1ada83e021386e9c05ac3f4f15
@@ -904,6 +821,7 @@ Priority: optional
 Section: libs
 Filename: pool/main/m/mesa/mesa-va-drivers_23.0.5-0~7~git221210.120202c6757_arm64.deb
 Size: 2466366
+SHA512: 1bbe0c2e89bdfb8190f74e26d769c1e2efb6666682b8e2007e0002d124b3e94131ac20940c4b625b7f186d2f35cc91d3936ec22a83661d68bd4cca36539ee443
 SHA256: d007051efeaaf85c40e0dd03b240b04de9b70b50c12f2a770bbffd6b94f44d8c
 SHA1: 65b7ff04b29c975ed2ff8a4933c73c02e467c171
 MD5sum: ddcfd8f79c9a8e0b487cafce41dc5118
@@ -929,6 +847,7 @@ Priority: optional
 Section: libs
 Filename: pool/main/m/mesa/mesa-vdpau-drivers_23.0.5-0~7~git221210.120202c6757_arm64.deb
 Size: 2592778
+SHA512: ff5124a82b1481c845c9e55fae2635ba08e30c65ba781fe11995577ddfed791db2265034da7dd39d79b492ce0f5a17ed29460c365c4bf67e5595edbd74c82840
 SHA256: 8374587dcf7dceb6336a39cec3b2026af04d617b4e9bbc13e06b052d2070184e
 SHA1: 137ca207388496fb807050875fe6ac3713934f62
 MD5sum: b6ce2cd6e0f9f8301132cc53fbbce48d
@@ -953,6 +872,7 @@ Priority: optional
 Section: libs
 Filename: pool/main/m/mesa/mesa-vulkan-drivers_23.0.5-0~7~git221210.120202c6757_arm64.deb
 Size: 262186
+SHA512: 7c36ab792d91952ca39afe8c17bde2e660033e9e52063642aa63d4bb98b8fd36817732b2524cb310ba64fda51338fe45f0dc1417f608c94ff863cf1d9a9ceed4
 SHA256: 9313ee0a704f258fd51ccd3222a68643016396b14fb40ac535a3e7f461fccdee
 SHA1: 22214c8334cd2f6d764cf37d770987fdd30059df
 MD5sum: ac6e23fa0c0243b663521c97c2005e6b
