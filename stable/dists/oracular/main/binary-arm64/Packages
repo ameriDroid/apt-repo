@@ -757,17 +757,17 @@ Version: 6.1.0.1023.24
 Architecture: arm64
 Maintainer: Panda <panda@ameridroid.com>
 Installed-Size: 9
-Depends: linux-image-6.1.0-1023-rockchip, linux-firmware
+Depends: linux-image-6.1.0-1023-rockchip
 Recommends: thermald
 Provides: zfs-modules (= 2.2.2-0ubuntu8)
 Priority: optional
 Section: kernel
 Filename: pool/main/l/linux-meta-rockchip/linux-image-rockchip_6.1.0.1023.24_arm64.deb
-Size: 2480
-SHA512: fd55298f436cd9d3e81c90271ea9a269cf7b6649249ed19317de5b81dd4e47ce9566f0d19846688b1929e64d1381d545b4d7d0a3e52bfca8fb1d0bb69a8b4508
-SHA256: 322528f95e42d92780fb9ab5a2aaed53a0a099dba7a9460ed1ab07049d7ec355
-SHA1: 392057ef0900b00b3b3652ff9358c05be8cdcaaf
-MD5sum: 4ecaa97eb5e99ef4d5f2eb9907b5ad0f
+Size: 2468
+SHA512: 8f33341f74098ea32f74937494e03d75962cc3f10712546e8007eddfec2e3a063c2d85ad7681d805790b2bc39af4b3b709a8117e033c7919ce5c62244c010e42
+SHA256: 495707f164a4cbc11a1a9c985409e86dedbb918e7edc9a3db44ce790dde2711a
+SHA1: c11c10162144397d345a7db24411020b679e6fee
+MD5sum: eed48f290917d22dc1ca9d71be03915f
 Description: Rockchip Linux kernel image
  This package will always depend on the latest rockchip kernel image
  available.
