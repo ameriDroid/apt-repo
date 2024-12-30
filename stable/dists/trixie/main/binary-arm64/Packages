@@ -711,11 +711,11 @@ Depends: linux-headers-6.1.0-1023-rockchip
 Priority: optional
 Section: kernel
 Filename: pool/main/l/linux-meta-rockchip/linux-headers-rockchip_6.1.0.1023.24_arm64.deb
-Size: 2416
-SHA512: 770fc75b45f0df87fcf9c59e467b2a9aff2ccea15f2197e499ce9240a334ca9ece089d6c9e2fb902420c061c6edcfc68ce449e48cb36c7ffdf165b46cb8eedae
-SHA256: 5912b32c00b2ce1141d01769d0717ba901f24393d8b697964d9cc7991345d9a5
-SHA1: 4d8801b37ff85500dcd50b6fe4bac06a99f46284
-MD5sum: 53a28834bd9183b367d08334f23a0871
+Size: 2420
+SHA512: 721448e08960f5effa356bd6360812fe5f93b2f45144e063e26ec1cf77d693daf45ae7cc33800469cfd7997501a6cb4ebc85c9cb98bcd12f7c222c3c50325549
+SHA256: 824285d66d056a97de086812aeb3cebff4f1add93be2de236e05b83c37569201
+SHA1: ecd10d2a0af1e043c6de894d14c753020a7e8c4e
+MD5sum: d0e143245497b67ed9793e88d25cb689
 Description: Rockchip Linux kernel headers
  This package will always depend on the latest rockchip kernel headers
  available.
@@ -763,11 +763,11 @@ Provides: zfs-modules (= 2.2.2-0ubuntu8)
 Priority: optional
 Section: kernel
 Filename: pool/main/l/linux-meta-rockchip/linux-image-rockchip_6.1.0.1023.24_arm64.deb
-Size: 2472
-SHA512: 57bea413438a43b6439222f57afbfb40bdaf3f220ab973ed4d996378d26845aaefde5a4f84ed0dae95aae64354920c3287672e3c2d3a8a85978454d51c881e79
-SHA256: b338e1affbaa9fdb493362d88f2c85dd7783adf971f004ff14e5fb3d556f329e
-SHA1: c602a4bf2f2a0a25732b61c67966778be9cf79f3
-MD5sum: 038955a21734d9ecc7225a2e00c56f2a
+Size: 2480
+SHA512: 99a6a1b6dc6f2ef71eadb8e1fec922d37e61bd313caa3a0a40003945d4c150e8bb2186bc8b8eba9a1b26ed6ccfa67795a23407512dc8595cecebd416ec2cd8b5
+SHA256: d04609bd32c8bd61a3d1007e3b88c7182c01fb13e5938070db4b46a32dd30510
+SHA1: 6f12c2ea13deffaa715951832409e80fdbf92cd0
+MD5sum: 96dfd6221599590191293b553b872315
 Description: Rockchip Linux kernel image
  This package will always depend on the latest rockchip kernel image
  available.
@@ -811,11 +811,11 @@ Provides: kernel-testing--linux-rockchip--full--preferred, kernel-testing--linux
 Priority: optional
 Section: kernel
 Filename: pool/main/l/linux-meta-rockchip/linux-rockchip_6.1.0.1023.24_arm64.deb
-Size: 2468
-SHA512: 4e1260109d10f64ba959fcdae77c5c62ccf459a898e706580446388b2186666556b4f424e9c765cedaa0cc23a8fd62cd827ccf728d08bff19d414c92964aa0b1
-SHA256: 08500bb25acde75ec518470eaf9dfc23187e744d7500ef8aded0900229cb667c
-SHA1: bec53cd3d6ced87a3acf2c39549af6b456108ef2
-MD5sum: 78d05455776905654cd6715d65947f19
+Size: 2476
+SHA512: 5f5d242edc429f7f94f49b526e000c91124b513329bb891bc72cf6ab212fbec4b4283e834165a2ef5d5e99a3b9c82c73b047754b967299fb3642e72212cb3c38
+SHA256: 918b5ba58c7fad079416ebbadd0546cc5051e30903b8b9035811aca7ed680ac4
+SHA1: f155414efeda14ea9f20957a08d95565df81d1b6
+MD5sum: d36800562efb28263de886feda2f3438
 Description: Complete Rockchip Linux kernel and headers
  This package will always depend on the latest complete rockchip Linux kernel
  and headers.
@@ -852,11 +852,11 @@ Provides: linux-tools
 Priority: optional
 Section: kernel
 Filename: pool/main/l/linux-meta-rockchip/linux-tools-rockchip_6.1.0.1023.24_arm64.deb
-Size: 2424
-SHA512: 29d6083be53e1864ed25f23fd90aae57bfb85fb45cad1cc6892d49135054f0643420bc4c3d21dadfce7d403fb542f1029ee5b76c3bf1cb99da31f806206ee4d7
-SHA256: a91563e20ec7714780f5142b8d0d52362156fb6bc93e4167f97d1f9de0cb0cff
-SHA1: 13c9bf0ba89ce16255e65b3c2753f13ed415ab91
-MD5sum: a88365ea9d66962d6d42c67f67b0afae
+Size: 2428
+SHA512: bdfe80fd73204c09fb5dfa81cec60df1a88a151fec7f77252e33275ccc36aba7caafc45e21a59d8e541c560cf3ebf57473755f87b8455984094febbbec18fec3
+SHA256: 74c6a31c50dc70513c2c15493814b60afbcdb0950eec0c9593860620b98002a8
+SHA1: 011150c875d0d86282fb3faf89e92568f8fdc72f
+MD5sum: f4527ab19bee0564c86353143dce48cf
 Description: Rockchip Linux kernel tools
  This package will always depend on the latest rockchip kernel tools
  available.
