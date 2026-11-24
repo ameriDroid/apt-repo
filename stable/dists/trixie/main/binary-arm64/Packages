@@ -1,3 +1,40 @@
+Package: ameridroid-archive-keyring
+Version: 2024.11.18
+Architecture: all
+Maintainer: Panda <panda@ameridroid.com>
+Installed-Size: 10
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/a/ameridroid-archive-keyring/ameridroid-archive-keyring_2024.11.18_all.deb
+Size: 1848
+SHA256: db58ae29611ba43a27793f68140f5c5766c86a994230e10bbe9df594d90c7c0f
+SHA1: 6d6034c4c90d172b20fb67a15aba065637928881
+MD5sum: eb30fe8697fa006810a6b510bd68216d
+Description: OpenPGP key for the ameriDroid / indieDroid APT repository
+ Installs the public key used to sign https://ameridroid.github.io/apt-repo
+ into /usr/share/keyrings/ameridroid-archive-keyring.gpg, for use with
+ signed-by= in APT sources.
+
+Package: grub-common-dbgsym
+Source: grub2
+Version: 2.06-13+deb12u1~1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 12617
+Depends: grub-common (= 2.06-13+deb12u1~1)
+Priority: optional
+Section: debug
+Filename: pool/main/g/grub2/grub-common-dbgsym_2.06-13+deb12u1~1_arm64.deb
+Size: 11417416
+SHA512: eb0838b3a56677d83d95bb97a4a726af84e41fb30da4a23dcc1a232c0bf55448c7afec77d5b90af0b816ba07d2a67086d17a16278500e442c8e22dc67b7c59eb
+SHA256: 876abc7eab8f5aee5d9f2b2db27cde7805579b83a1a57259f94da6d81939e4e4
+SHA1: 8f80b887a657560bc85c55ba7913c8df7b9495d2
+MD5sum: 83589957405ff0c1ef84a5709560f674
+Description: debug symbols for grub-common
+Build-Ids: 09575e29e8d6c3cb6b545424ba6a9ae5ceb9d297 0ba8cf738a402a9f504403f8d810d88cf2126e0a 0bf36d2d94b764d74f6d361fcb6619e5db2594a0 107b760f0e2598ca4e7713a4ce71253877559d20 248328c1dd362b81a08bc8e9eea5323dc47e4a2c 25f7b28633e2b6bb498e0f29c3057c251cea6034 499189575089f92d173506044cfc66b49e931cb3 500a6ef7994442643d2e0131f9e6f062011a2075 5d562b16f4e63c934271e35baa896649535d4fe3 681c611544b6a001d4d5eebc16deea1e20186279 6be868d6dc513a3a2a204f5f99cd395e9af1c40c 7871e29a2e4d934a8a9e45b19185b089338d7e4e 7f0e96f87c82668bcaee384ada6fa8d952831e23 810527350ed19cf937423045323787b316f3092a 87725f2dcf90f6c2ed6d5c88ad1f1f1f398dd636 8cd95108d98e9d26c88588c245d0f483fd4feff0 b12ed40f7be0df17e02a3066fa95e40b662af98a e4f511e325b4b3182ee3e74abcb47a3a65faf00d e8dcc28bb92396c24daa8f422d261d658515109d f9561ef52582d83bee4a47fa2d7607fb3ec28dc7
+
 Package: grub-common
 Source: grub2
 Version: 2.06-13+deb12u1~1
@@ -27,77 +64,6 @@ Description: GRand Unified Bootloader (common files)
  .
  grub-mkrescue needs the suggested packages mtools (for UEFI targets) and
  xorriso.
-
-Package: grub-common-dbgsym
-Source: grub2
-Version: 2.06-13+deb12u1~1
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
-Installed-Size: 12617
-Depends: grub-common (= 2.06-13+deb12u1~1)
-Priority: optional
-Section: debug
-Filename: pool/main/g/grub2/grub-common-dbgsym_2.06-13+deb12u1~1_arm64.deb
-Size: 11417416
-SHA512: eb0838b3a56677d83d95bb97a4a726af84e41fb30da4a23dcc1a232c0bf55448c7afec77d5b90af0b816ba07d2a67086d17a16278500e442c8e22dc67b7c59eb
-SHA256: 876abc7eab8f5aee5d9f2b2db27cde7805579b83a1a57259f94da6d81939e4e4
-SHA1: 8f80b887a657560bc85c55ba7913c8df7b9495d2
-MD5sum: 83589957405ff0c1ef84a5709560f674
-Description: debug symbols for grub-common
-Build-Ids: 09575e29e8d6c3cb6b545424ba6a9ae5ceb9d297 0ba8cf738a402a9f504403f8d810d88cf2126e0a 0bf36d2d94b764d74f6d361fcb6619e5db2594a0 107b760f0e2598ca4e7713a4ce71253877559d20 248328c1dd362b81a08bc8e9eea5323dc47e4a2c 25f7b28633e2b6bb498e0f29c3057c251cea6034 499189575089f92d173506044cfc66b49e931cb3 500a6ef7994442643d2e0131f9e6f062011a2075 5d562b16f4e63c934271e35baa896649535d4fe3 681c611544b6a001d4d5eebc16deea1e20186279 6be868d6dc513a3a2a204f5f99cd395e9af1c40c 7871e29a2e4d934a8a9e45b19185b089338d7e4e 7f0e96f87c82668bcaee384ada6fa8d952831e23 810527350ed19cf937423045323787b316f3092a 87725f2dcf90f6c2ed6d5c88ad1f1f1f398dd636 8cd95108d98e9d26c88588c245d0f483fd4feff0 b12ed40f7be0df17e02a3066fa95e40b662af98a e4f511e325b4b3182ee3e74abcb47a3a65faf00d e8dcc28bb92396c24daa8f422d261d658515109d f9561ef52582d83bee4a47fa2d7607fb3ec28dc7
-
-Package: grub-efi
-Source: grub2
-Version: 2.06-13+deb12u1~1
-Architecture: arm64
-Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
-Installed-Size: 12
-Depends: grub-common (= 2.06-13+deb12u1~1), grub-efi-arm64 (= 2.06-13+deb12u1~1)
-Multi-Arch: foreign
-Homepage: https://www.gnu.org/software/grub/
-Priority: optional
-Section: admin
-Filename: pool/main/g/grub2/grub-efi_2.06-13+deb12u1~1_arm64.deb
-Size: 2388
-SHA512: b81cec24616a9dcc479b6255c31c62954865d5bbff5bd00449a5261a7070c4730c41c2e0a4490c8ea2c4270284713a5d229f00b3fc28b7425d6a02784a02e059
-SHA256: 8caee9ffc6ced5faf07f66a318dc1bfaca7727f087b81876ffa9d348f3ede5a3
-SHA1: 6f49270d360b037edd2232ca66296fa1e254fa07
-MD5sum: c1dc53bce75196d3b77112df17cd99dc
-Description: GRand Unified Bootloader, version 2 (dummy package)
- This is a dummy package that depends on the grub-efi-$ARCH package most likely
- to be appropriate for each architecture.
-
-Package: grub-efi-arm64
-Source: grub2
-Version: 2.06-13+deb12u1~1
-Architecture: arm64
-Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
-Installed-Size: 176
-Depends: debconf (>= 0.5) | debconf-2.0, grub-common (= 2.06-13+deb12u1~1), grub2-common (= 2.06-13+deb12u1~1), grub-efi-arm64-bin (= 2.06-13+deb12u1~1), ucf
-Multi-Arch: foreign
-Homepage: https://www.gnu.org/software/grub/
-Priority: optional
-Section: admin
-Filename: pool/main/g/grub2/grub-efi-arm64_2.06-13+deb12u1~1_arm64.deb
-Size: 45568
-SHA512: 6d749b0983758e573442cb3d3d78065679d330c3e1e791abd7b642782c4e56984f3d8c1cc12daba653eaa3c4b3ea5bab803ade0b2a2d9e647bd9fa35dac20fa6
-SHA256: 4b2a4bc1e44f1e7ce5dadcf05a1b6d0477057a09efa689f0ffc2fe24074dabdd
-SHA1: 16de36a759b81d0df9fe2b714b7e322df2c132f0
-MD5sum: 593156a614fc85518a5fc5a51ae92166
-Description: GRand Unified Bootloader, version 2 (ARM64 UEFI version)
- GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
- cleaner design than its predecessors, and provides the following new features:
- .
-  - Scripting in grub.cfg using BASH-like syntax.
-  - Support for modern partition maps such as GPT.
-  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
-    add-ons can plug in their own script rules and trigger updates by invoking
-    update-grub.
- .
- This is a dependency package for a version of GRUB that has been built for
- use on ARM64 systems with UEFI.  Installing this package indicates that
- this version of GRUB should be the active boot loader.
 
 Package: grub-efi-arm64-bin
 Source: grub2
@@ -174,6 +140,58 @@ Description: GRand Unified Bootloader, version 2 (ARM64 UEFI signing template)
  This package contains template files for grub-efi-arm64-signed.
  This is only needed for Secure Boot signing.
 
+Package: grub-efi-arm64
+Source: grub2
+Version: 2.06-13+deb12u1~1
+Architecture: arm64
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 176
+Depends: debconf (>= 0.5) | debconf-2.0, grub-common (= 2.06-13+deb12u1~1), grub2-common (= 2.06-13+deb12u1~1), grub-efi-arm64-bin (= 2.06-13+deb12u1~1), ucf
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Priority: optional
+Section: admin
+Filename: pool/main/g/grub2/grub-efi-arm64_2.06-13+deb12u1~1_arm64.deb
+Size: 45568
+SHA512: 6d749b0983758e573442cb3d3d78065679d330c3e1e791abd7b642782c4e56984f3d8c1cc12daba653eaa3c4b3ea5bab803ade0b2a2d9e647bd9fa35dac20fa6
+SHA256: 4b2a4bc1e44f1e7ce5dadcf05a1b6d0477057a09efa689f0ffc2fe24074dabdd
+SHA1: 16de36a759b81d0df9fe2b714b7e322df2c132f0
+MD5sum: 593156a614fc85518a5fc5a51ae92166
+Description: GRand Unified Bootloader, version 2 (ARM64 UEFI version)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This is a dependency package for a version of GRUB that has been built for
+ use on ARM64 systems with UEFI.  Installing this package indicates that
+ this version of GRUB should be the active boot loader.
+
+Package: grub-efi
+Source: grub2
+Version: 2.06-13+deb12u1~1
+Architecture: arm64
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 12
+Depends: grub-common (= 2.06-13+deb12u1~1), grub-efi-arm64 (= 2.06-13+deb12u1~1)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Priority: optional
+Section: admin
+Filename: pool/main/g/grub2/grub-efi_2.06-13+deb12u1~1_arm64.deb
+Size: 2388
+SHA512: b81cec24616a9dcc479b6255c31c62954865d5bbff5bd00449a5261a7070c4730c41c2e0a4490c8ea2c4270284713a5d229f00b3fc28b7425d6a02784a02e059
+SHA256: 8caee9ffc6ced5faf07f66a318dc1bfaca7727f087b81876ffa9d348f3ede5a3
+SHA1: 6f49270d360b037edd2232ca66296fa1e254fa07
+MD5sum: c1dc53bce75196d3b77112df17cd99dc
+Description: GRand Unified Bootloader, version 2 (dummy package)
+ This is a dummy package that depends on the grub-efi-$ARCH package most likely
+ to be appropriate for each architecture.
+
 Package: grub-theme-starfield
 Source: grub2
 Version: 2.06-13+deb12u1~1
@@ -193,6 +211,25 @@ SHA1: 2c6577ba53535e8b4962623e6dcf03fc3d1999e9
 MD5sum: a7eb52d50e7ddf92de2e1bc1a2c03a7c
 Description: GRand Unified Bootloader, version 2 (starfield theme)
  This is the default theme for GRUB's graphical menu.
+
+Package: grub2-common-dbgsym
+Source: grub2
+Version: 2.06-13+deb12u1~1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 1514
+Depends: grub2-common (= 2.06-13+deb12u1~1)
+Priority: optional
+Section: debug
+Filename: pool/main/g/grub2/grub2-common-dbgsym_2.06-13+deb12u1~1_arm64.deb
+Size: 1422516
+SHA512: 0695c2f27223422906d783f8b2fdd6b91d61e851cdfcb79b392c8b77145cd08d8e93af45a4602dc908d7170521ca08d68b43addeb55f2745c614b7b365e55db5
+SHA256: 8941e24910d3f8e2606ddced00ca53f6e734b4abaf377aa2fdb4ac456a36c199
+SHA1: 384d69a438f0977edbe58fbf36fd5b4eb1172725
+MD5sum: 35247460d710d51d6b8b4e1c67072f3e
+Description: debug symbols for grub2-common
+Build-Ids: fbf65dc3c1897e0524053cf347a6626deb97d7ce
 
 Package: grub2-common
 Source: grub2
@@ -219,25 +256,6 @@ Description: GRand Unified Bootloader (common files for version 2)
  The files in this package are specific to GRUB 2, and would break GRUB
  Legacy if installed on the same system.
 
-Package: grub2-common-dbgsym
-Source: grub2
-Version: 2.06-13+deb12u1~1
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
-Installed-Size: 1514
-Depends: grub2-common (= 2.06-13+deb12u1~1)
-Priority: optional
-Section: debug
-Filename: pool/main/g/grub2/grub2-common-dbgsym_2.06-13+deb12u1~1_arm64.deb
-Size: 1422516
-SHA512: 0695c2f27223422906d783f8b2fdd6b91d61e851cdfcb79b392c8b77145cd08d8e93af45a4602dc908d7170521ca08d68b43addeb55f2745c614b7b365e55db5
-SHA256: 8941e24910d3f8e2606ddced00ca53f6e734b4abaf377aa2fdb4ac456a36c199
-SHA1: 384d69a438f0977edbe58fbf36fd5b4eb1172725
-MD5sum: 35247460d710d51d6b8b4e1c67072f3e
-Description: debug symbols for grub2-common
-Build-Ids: fbf65dc3c1897e0524053cf347a6626deb97d7ce
-
 Package: imageforge
 Version: 1.1.0
 Architecture: all
@@ -257,28 +275,6 @@ MD5sum: d4d851d5d5572ff8499411352383be4b
 Description: Python library designed for building Linux distribution images.
  This library is designed to make it easy to build Linux distribution images
  for a variety of platforms, specifically ARM.
-
-Package: libd3dadapter9-mesa
-Source: mesa
-Version: 1:23.0.5-0~7~git221210.120202c6757
-Architecture: arm64
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 12437
-Depends: libc6 (>= 2.34), libdrm-nouveau2 (>= 2.4.66), libdrm-radeon1 (>= 2.4.31), libdrm2 (>= 2.4.84), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.0), libllvm15, libsensors5 (>= 1:3.5.0), libstdc++6 (>= 11), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.1.4), libudev1
-Multi-Arch: same
-Homepage: https://mesa3d.org/
-Priority: optional
-Section: libs
-Filename: pool/main/m/mesa/libd3dadapter9-mesa_23.0.5-0~7~git221210.120202c6757_arm64.deb
-Size: 3182072
-SHA512: 51a6228cb44817265a36c0ce22775578827f068a90d9d10a204dfe131e9a1d2d1e7abddd5c796d8e8abdff42b7fe29018afd8aae5651c35424139ee8b1379a33
-SHA256: d88d00d90f1257dcac0e02b11f885e33cb2555a9d742a443ccb024e6aa672151
-SHA1: e41123c2842a4ddedfb78f64b7cb9cca10a65941
-MD5sum: a62fe22bb90b8a6ba3ad2d42798318ac
-Description: state-tracker for Direct3D9
- This package contains a Gallium3D state tracker that implements the Direct3D9
- API.  Combined with the gallium-nine branch of Wine, programs using D3D9 can
- achieve native (or better) graphics performance.
 
 Package: libd3dadapter9-mesa-dbgsym
 Source: mesa
@@ -324,6 +320,48 @@ Description: state-tracker for Direct3D9 -- development files
  .
  Development files
 
+Package: libd3dadapter9-mesa
+Source: mesa
+Version: 1:23.0.5-0~7~git221210.120202c6757
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 12437
+Depends: libc6 (>= 2.34), libdrm-nouveau2 (>= 2.4.66), libdrm-radeon1 (>= 2.4.31), libdrm2 (>= 2.4.84), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.0), libllvm15, libsensors5 (>= 1:3.5.0), libstdc++6 (>= 11), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.1.4), libudev1
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mesa/libd3dadapter9-mesa_23.0.5-0~7~git221210.120202c6757_arm64.deb
+Size: 3182072
+SHA512: 51a6228cb44817265a36c0ce22775578827f068a90d9d10a204dfe131e9a1d2d1e7abddd5c796d8e8abdff42b7fe29018afd8aae5651c35424139ee8b1379a33
+SHA256: d88d00d90f1257dcac0e02b11f885e33cb2555a9d742a443ccb024e6aa672151
+SHA1: e41123c2842a4ddedfb78f64b7cb9cca10a65941
+MD5sum: a62fe22bb90b8a6ba3ad2d42798318ac
+Description: state-tracker for Direct3D9
+ This package contains a Gallium3D state tracker that implements the Direct3D9
+ API.  Combined with the gallium-nine branch of Wine, programs using D3D9 can
+ achieve native (or better) graphics performance.
+
+Package: libegl-mesa0-dbgsym
+Source: mesa
+Version: 1:23.0.5-0~7~git221210.120202c6757
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 577
+Depends: libegl-mesa0 (= 1:23.0.5-0~7~git221210.120202c6757)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/m/mesa/libegl-mesa0-dbgsym_23.0.5-0~7~git221210.120202c6757_arm64.deb
+Size: 515368
+SHA512: 3d69d7556a34686d765a7bdca20070cb8e02f600beebe6c2298403bc7770ae4c2e6b1b240496eeece406e91a54d733fd03031e65a324660b48343972b21430ae
+SHA256: f73a98345d8af9b9e61e9d13ac75c3525a298994992d94298341562cbdda2ee0
+SHA1: 8c40440cfc184d83fe1acd748e03651601f8c516
+MD5sum: 3a6990b901dbd5185d077e5a727dffdd
+Description: debug symbols for libegl-mesa0
+Build-Ids: 04e2728b55139d1a48148ee32b2a1163950a88e0
+
 Package: libegl-mesa0
 Source: mesa
 Version: 1:23.0.5-0~7~git221210.120202c6757
@@ -348,46 +386,6 @@ Description: free implementation of the EGL API -- Mesa vendor library
  for use with other graphics libraries, such as OpenGL|ES.
  .
  This package contains the Mesa vendor library for EGL.
-
-Package: libegl-mesa0-dbgsym
-Source: mesa
-Version: 1:23.0.5-0~7~git221210.120202c6757
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 577
-Depends: libegl-mesa0 (= 1:23.0.5-0~7~git221210.120202c6757)
-Multi-Arch: same
-Priority: optional
-Section: debug
-Filename: pool/main/m/mesa/libegl-mesa0-dbgsym_23.0.5-0~7~git221210.120202c6757_arm64.deb
-Size: 515368
-SHA512: 3d69d7556a34686d765a7bdca20070cb8e02f600beebe6c2298403bc7770ae4c2e6b1b240496eeece406e91a54d733fd03031e65a324660b48343972b21430ae
-SHA256: f73a98345d8af9b9e61e9d13ac75c3525a298994992d94298341562cbdda2ee0
-SHA1: 8c40440cfc184d83fe1acd748e03651601f8c516
-MD5sum: 3a6990b901dbd5185d077e5a727dffdd
-Description: debug symbols for libegl-mesa0
-Build-Ids: 04e2728b55139d1a48148ee32b2a1163950a88e0
-
-Package: libegl1-mesa
-Source: mesa
-Version: 1:23.0.5-0~7~git221210.120202c6757
-Architecture: arm64
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 33
-Depends: libegl1
-Multi-Arch: same
-Homepage: https://mesa3d.org/
-Priority: optional
-Section: oldlibs
-Filename: pool/main/m/mesa/libegl1-mesa_23.0.5-0~7~git221210.120202c6757_arm64.deb
-Size: 14184
-SHA512: 6f6a0e0d6f9959ddb4b13086cc75d9de6d86288d50e32698e73b29e0d7a87b2a3ef8a8ab66c62a8c7b1263cae264b53a0e1072f773e0cb8ed47eed7058a38401
-SHA256: 64c1d21a6a668a60b1a901e1dc0ca5800d8d4e9fc0ec5abdaa6d068c6e844a2f
-SHA1: 641d4ceb71e8fe672c99aee3ec0f7a2e0763b147
-MD5sum: fdb552fef47a18ea04ceadba434dc439
-Description: transitional dummy package
- This is a transitional dummy package, it can be safely removed.
 
 Package: libegl1-mesa-dev
 Source: mesa
@@ -415,6 +413,26 @@ Description: free implementation of the EGL API -- development files
  This package provides the development environment for compiling programs
  against the EGL library.
 
+Package: libegl1-mesa
+Source: mesa
+Version: 1:23.0.5-0~7~git221210.120202c6757
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 33
+Depends: libegl1
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/m/mesa/libegl1-mesa_23.0.5-0~7~git221210.120202c6757_arm64.deb
+Size: 14184
+SHA512: 6f6a0e0d6f9959ddb4b13086cc75d9de6d86288d50e32698e73b29e0d7a87b2a3ef8a8ab66c62a8c7b1263cae264b53a0e1072f773e0cb8ed47eed7058a38401
+SHA256: 64c1d21a6a668a60b1a901e1dc0ca5800d8d4e9fc0ec5abdaa6d068c6e844a2f
+SHA1: 641d4ceb71e8fe672c99aee3ec0f7a2e0763b147
+MD5sum: fdb552fef47a18ea04ceadba434dc439
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
 Package: libgbm-dev
 Source: mesa
 Version: 1:23.0.5-0~7~git221210.120202c6757
@@ -441,6 +459,26 @@ Description: generic buffer management API -- development files
  This package provides the development environment for compiling programs
  against the GBM library.
 
+Package: libgbm1-dbgsym
+Source: mesa
+Version: 1:23.0.5-0~7~git221210.120202c6757
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 152
+Depends: libgbm1 (= 1:23.0.5-0~7~git221210.120202c6757)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/m/mesa/libgbm1-dbgsym_23.0.5-0~7~git221210.120202c6757_arm64.deb
+Size: 129708
+SHA512: a0ec88404b2553e36466557106a7c4bf246bbd0a6774bdf7ebaca376e559a3a729116be989dc148fcbf2cc03b45f9f0c40ed96ade3be9d3e9f0f12d165112d53
+SHA256: 98dad0719a658cb8812c9d1928365fcaba7ba5f28c0b0d50ee148cc189d376bc
+SHA1: 3d55467332de96c16fc2229940648734daab901b
+MD5sum: 19d0195471451aeab138ffc2b574b9b3
+Description: debug symbols for libgbm1
+Build-Ids: 9c2a74bfdec88e68eb0997530d2d28bfc608e7fc
+
 Package: libgbm1
 Source: mesa
 Version: 1:23.0.5-0~7~git221210.120202c6757
@@ -464,26 +502,6 @@ Description: generic buffer management API -- runtime
  .
  GBM is intended to be used as a native platform for EGL on drm or openwfd.
 
-Package: libgbm1-dbgsym
-Source: mesa
-Version: 1:23.0.5-0~7~git221210.120202c6757
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 152
-Depends: libgbm1 (= 1:23.0.5-0~7~git221210.120202c6757)
-Multi-Arch: same
-Priority: optional
-Section: debug
-Filename: pool/main/m/mesa/libgbm1-dbgsym_23.0.5-0~7~git221210.120202c6757_arm64.deb
-Size: 129708
-SHA512: a0ec88404b2553e36466557106a7c4bf246bbd0a6774bdf7ebaca376e559a3a729116be989dc148fcbf2cc03b45f9f0c40ed96ade3be9d3e9f0f12d165112d53
-SHA256: 98dad0719a658cb8812c9d1928365fcaba7ba5f28c0b0d50ee148cc189d376bc
-SHA1: 3d55467332de96c16fc2229940648734daab901b
-MD5sum: 19d0195471451aeab138ffc2b574b9b3
-Description: debug symbols for libgbm1
-Build-Ids: 9c2a74bfdec88e68eb0997530d2d28bfc608e7fc
-
 Package: libgl1-mesa-dev
 Source: mesa
 Version: 1:23.0.5-0~7~git221210.120202c6757
@@ -503,6 +521,26 @@ SHA1: ad018fe0461886d6f7d12c0e279c56133f7d7bc4
 MD5sum: 9b0d1faaf635c12a39c0e9f0b9fba556
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+
+Package: libgl1-mesa-dri-dbgsym
+Source: mesa
+Version: 1:23.0.5-0~7~git221210.120202c6757
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 34728
+Depends: libgl1-mesa-dri (= 1:23.0.5-0~7~git221210.120202c6757)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/m/mesa/libgl1-mesa-dri-dbgsym_23.0.5-0~7~git221210.120202c6757_arm64.deb
+Size: 32981572
+SHA512: b0ee1778945ab7aab337f5dd6a70544592b887ff2897383fa230f0f0ee6ceb7df43165c6d689d0ce3039ff7a4e2ca27206713130fae07566da68e1d4f31ac6eb
+SHA256: 9624f2d4dfa11f1b2d578cd0ff20d9d1e53decd3da4afa3af5252176ddf15753
+SHA1: 805aea2314784aa96551ba91bd3e549e1e55d72d
+MD5sum: 12429c8325e51aa1db69708955cb75cb
+Description: debug symbols for libgl1-mesa-dri
+Build-Ids: 8b26d938ca04006328af3e5ec7a45d3a6b135c93
 
 Package: libgl1-mesa-dri
 Source: mesa
@@ -532,26 +570,6 @@ Description: free implementation of the OpenGL API -- DRI modules
  For a complete description of Mesa, please look at the
  libglx-mesa0 package.
 
-Package: libgl1-mesa-dri-dbgsym
-Source: mesa
-Version: 1:23.0.5-0~7~git221210.120202c6757
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 34728
-Depends: libgl1-mesa-dri (= 1:23.0.5-0~7~git221210.120202c6757)
-Multi-Arch: same
-Priority: optional
-Section: debug
-Filename: pool/main/m/mesa/libgl1-mesa-dri-dbgsym_23.0.5-0~7~git221210.120202c6757_arm64.deb
-Size: 32981572
-SHA512: b0ee1778945ab7aab337f5dd6a70544592b887ff2897383fa230f0f0ee6ceb7df43165c6d689d0ce3039ff7a4e2ca27206713130fae07566da68e1d4f31ac6eb
-SHA256: 9624f2d4dfa11f1b2d578cd0ff20d9d1e53decd3da4afa3af5252176ddf15753
-SHA1: 805aea2314784aa96551ba91bd3e549e1e55d72d
-MD5sum: 12429c8325e51aa1db69708955cb75cb
-Description: debug symbols for libgl1-mesa-dri
-Build-Ids: 8b26d938ca04006328af3e5ec7a45d3a6b135c93
-
 Package: libgl1-mesa-glx
 Source: mesa
 Version: 1:23.0.5-0~7~git221210.120202c6757
@@ -571,6 +589,26 @@ SHA1: e30a5afcc5e022e0fe41df340912660046cca06e
 MD5sum: 81e22d0a873e0de070fcf01e1835c7af
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+
+Package: libglapi-mesa-dbgsym
+Source: mesa
+Version: 1:23.0.5-0~7~git221210.120202c6757
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 296
+Depends: libglapi-mesa (= 1:23.0.5-0~7~git221210.120202c6757)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/m/mesa/libglapi-mesa-dbgsym_23.0.5-0~7~git221210.120202c6757_arm64.deb
+Size: 156744
+SHA512: 8e1950dbcab5435c72358a584786a62b920a63eb2ef2d95f45399fb15cdd59742e9a43d49a0b0e2f4f6cd74dd8dcbe7eb63bc2546f53305782acb0c885cd6a98
+SHA256: dd174038e8465634c923edcb94c7f60b0f7bd960837588f8fd684c1158a764d0
+SHA1: 58ec60ab56cee02ba25389107d81560783169a83
+MD5sum: d73f7f36740a5a52c6d90410d8a0480b
+Description: debug symbols for libglapi-mesa
+Build-Ids: 538c1afb3d6bf64a82e7bbb5cc201ccd06440e2a
 
 Package: libglapi-mesa
 Source: mesa
@@ -594,25 +632,25 @@ Description: free implementation of the GL API -- shared library
  functions. It is intended to be mainly used by both the libgles1-mesa
  and libgles2-mesa packages.
 
-Package: libglapi-mesa-dbgsym
+Package: libgles2-mesa-dev
 Source: mesa
 Version: 1:23.0.5-0~7~git221210.120202c6757
-Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 296
-Depends: libglapi-mesa (= 1:23.0.5-0~7~git221210.120202c6757)
+Installed-Size: 33
+Depends: libgles-dev, libglvnd-dev
 Multi-Arch: same
+Homepage: https://mesa3d.org/
 Priority: optional
-Section: debug
-Filename: pool/main/m/mesa/libglapi-mesa-dbgsym_23.0.5-0~7~git221210.120202c6757_arm64.deb
-Size: 156744
-SHA512: 8e1950dbcab5435c72358a584786a62b920a63eb2ef2d95f45399fb15cdd59742e9a43d49a0b0e2f4f6cd74dd8dcbe7eb63bc2546f53305782acb0c885cd6a98
-SHA256: dd174038e8465634c923edcb94c7f60b0f7bd960837588f8fd684c1158a764d0
-SHA1: 58ec60ab56cee02ba25389107d81560783169a83
-MD5sum: d73f7f36740a5a52c6d90410d8a0480b
-Description: debug symbols for libglapi-mesa
-Build-Ids: 538c1afb3d6bf64a82e7bbb5cc201ccd06440e2a
+Section: oldlibs
+Filename: pool/main/m/mesa/libgles2-mesa-dev_23.0.5-0~7~git221210.120202c6757_arm64.deb
+Size: 14196
+SHA512: 0e58386c858bd5113e442a8ecf06a90a8ebecbf4a7bc092aad8b03232ff791114e81bac04201dcc46dbede1859bb95adcebf5c974472ffa62bbba17a11f5dd24
+SHA256: c4daaa746910424394069735e42adb1f336649a2731959d097176e92f26a2051
+SHA1: f597b1342924bcd68ad1ef6462cfdff92171e175
+MD5sum: 318b27c7dc6f23566f47176f4f3abdf6
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
 
 Package: libgles2-mesa
 Source: mesa
@@ -634,25 +672,25 @@ MD5sum: 9e75d79e6c216ef7985d24cd7bc31a4c
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
 
-Package: libgles2-mesa-dev
+Package: libglx-mesa0-dbgsym
 Source: mesa
 Version: 1:23.0.5-0~7~git221210.120202c6757
+Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 33
-Depends: libgles-dev, libglvnd-dev
+Installed-Size: 868
+Depends: libglx-mesa0 (= 1:23.0.5-0~7~git221210.120202c6757)
 Multi-Arch: same
-Homepage: https://mesa3d.org/
 Priority: optional
-Section: oldlibs
-Filename: pool/main/m/mesa/libgles2-mesa-dev_23.0.5-0~7~git221210.120202c6757_arm64.deb
-Size: 14196
-SHA512: 0e58386c858bd5113e442a8ecf06a90a8ebecbf4a7bc092aad8b03232ff791114e81bac04201dcc46dbede1859bb95adcebf5c974472ffa62bbba17a11f5dd24
-SHA256: c4daaa746910424394069735e42adb1f336649a2731959d097176e92f26a2051
-SHA1: f597b1342924bcd68ad1ef6462cfdff92171e175
-MD5sum: 318b27c7dc6f23566f47176f4f3abdf6
-Description: transitional dummy package
- This is a transitional dummy package, it can be safely removed.
+Section: debug
+Filename: pool/main/m/mesa/libglx-mesa0-dbgsym_23.0.5-0~7~git221210.120202c6757_arm64.deb
+Size: 709712
+SHA512: 6fb8e75c1869acc8b004c7abe03a9dcbc5dc7cb9522c9651274e40877e57a1cfa9278fe2583dbb734e8d0ed1c0d1adaeea25b0537a73f7ed985630a5f77f044f
+SHA256: f7f2fc294b4077af7919bc9eeee08e60deac42de89bc62b158c1379cd19b0462
+SHA1: cb82cfd4871f133517a03eb66c0b5a88dc5fc320
+MD5sum: d4f681a6f043d5ab3fa22ba9e4a7b269
+Description: debug symbols for libglx-mesa0
+Build-Ids: eea2c98eb25c92f7c23e462620e03d4fe856902a
 
 Package: libglx-mesa0
 Source: mesa
@@ -688,50 +726,6 @@ Description: free implementation of the OpenGL API -- GLX vendor library
  This package does not include the modules themselves: these can be found
  in the libgl1-mesa-dri package.
 
-Package: libglx-mesa0-dbgsym
-Source: mesa
-Version: 1:23.0.5-0~7~git221210.120202c6757
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 868
-Depends: libglx-mesa0 (= 1:23.0.5-0~7~git221210.120202c6757)
-Multi-Arch: same
-Priority: optional
-Section: debug
-Filename: pool/main/m/mesa/libglx-mesa0-dbgsym_23.0.5-0~7~git221210.120202c6757_arm64.deb
-Size: 709712
-SHA512: 6fb8e75c1869acc8b004c7abe03a9dcbc5dc7cb9522c9651274e40877e57a1cfa9278fe2583dbb734e8d0ed1c0d1adaeea25b0537a73f7ed985630a5f77f044f
-SHA256: f7f2fc294b4077af7919bc9eeee08e60deac42de89bc62b158c1379cd19b0462
-SHA1: cb82cfd4871f133517a03eb66c0b5a88dc5fc320
-MD5sum: d4f681a6f043d5ab3fa22ba9e4a7b269
-Description: debug symbols for libglx-mesa0
-Build-Ids: eea2c98eb25c92f7c23e462620e03d4fe856902a
-
-Package: libosmesa6
-Source: mesa
-Version: 1:23.0.5-0~7~git221210.120202c6757
-Architecture: arm64
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 40
-Multi-Arch: same
-Homepage: https://mesa3d.org/
-Priority: optional
-Section: libs
-Filename: pool/main/m/mesa/libosmesa6_23.0.5-0~7~git221210.120202c6757_arm64.deb
-Size: 14576
-SHA512: 484aad6c9216c78b81ea356ea15f28a46f1bafe32d00d34f62b1df09ffd2f562d964c96485039dd4760a68684c55f2aab550f9d7fd9196a9cc3647295393efea
-SHA256: 08d4e5b33cfe1818a965484ec56369906c0e359cf2fa187e16d4c94d458cb2fd
-SHA1: 2d2c671e10ff6cbab89dc1ed0fe95568d80121e1
-MD5sum: 47071a6ad114941b3e068c609e77cd00
-Description: Mesa Off-screen rendering extension
- OSmesa is a Mesa extension that allows programs to render to an
- off-screen buffer using the OpenGL API without having to create a
- rendering context on an X Server.  It uses a pure software renderer.
- .
- This package provides both 16-bit and 32-bit versions of the off-screen
- renderer which do not require external libraries to work.
-
 Package: libosmesa6-dev
 Source: mesa
 Version: 1:23.0.5-0~7~git221210.120202c6757
@@ -757,6 +751,30 @@ Description: Mesa Off-screen rendering extension -- development files
  that use the off-screen rendering extension of Mesa.
  .
  For more information on OSmesa see the libosmesa6 package.
+
+Package: libosmesa6
+Source: mesa
+Version: 1:23.0.5-0~7~git221210.120202c6757
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 40
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mesa/libosmesa6_23.0.5-0~7~git221210.120202c6757_arm64.deb
+Size: 14576
+SHA512: 484aad6c9216c78b81ea356ea15f28a46f1bafe32d00d34f62b1df09ffd2f562d964c96485039dd4760a68684c55f2aab550f9d7fd9196a9cc3647295393efea
+SHA256: 08d4e5b33cfe1818a965484ec56369906c0e359cf2fa187e16d4c94d458cb2fd
+SHA1: 2d2c671e10ff6cbab89dc1ed0fe95568d80121e1
+MD5sum: 47071a6ad114941b3e068c609e77cd00
+Description: Mesa Off-screen rendering extension
+ OSmesa is a Mesa extension that allows programs to render to an
+ off-screen buffer using the OpenGL API without having to create a
+ rendering context on an X Server.  It uses a pure software renderer.
+ .
+ This package provides both 16-bit and 32-bit versions of the off-screen
+ renderer which do not require external libraries to work.
 
 Package: libwayland-egl1-mesa
 Source: mesa
@@ -920,26 +938,6 @@ Description: Linux kernel extra modules for version 6.1.0 on ARMv8 SMP
  the linux-rockchip meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
-Package: linux-rockchip
-Source: linux-meta-rockchip
-Version: 6.1.0.1023.24
-Architecture: arm64
-Maintainer: Panda <panda@ameridroid.com>
-Installed-Size: 9
-Depends: linux-image-rockchip (= 6.1.0.1023.24), linux-headers-rockchip (= 6.1.0.1023.24)
-Provides: kernel-testing--linux-rockchip--full--preferred, kernel-testing--linux-rockchip--full--rockchip
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-meta-rockchip/linux-rockchip_6.1.0.1023.24_arm64.deb
-Size: 2476
-SHA512: 5f5d242edc429f7f94f49b526e000c91124b513329bb891bc72cf6ab212fbec4b4283e834165a2ef5d5e99a3b9c82c73b047754b967299fb3642e72212cb3c38
-SHA256: 918b5ba58c7fad079416ebbadd0546cc5051e30903b8b9035811aca7ed680ac4
-SHA1: f155414efeda14ea9f20957a08d95565df81d1b6
-MD5sum: d36800562efb28263de886feda2f3438
-Description: Complete Rockchip Linux kernel and headers
- This package will always depend on the latest complete rockchip Linux kernel
- and headers.
-
 Package: linux-rockchip-headers-6.1.0-1023
 Source: linux-rockchip
 Version: 6.1.0-1023.24
@@ -960,6 +958,26 @@ Description: Header files related to Linux kernel version 6.1.0-1023
  This package provides kernel header files for version 6.1.0-1023, for sites
  that want the latest kernel headers. Please read
  /usr/share/doc/linux-rockchip-headers-6.1.0-1023/debian.README.gz for details
+
+Package: linux-rockchip
+Source: linux-meta-rockchip
+Version: 6.1.0.1023.24
+Architecture: arm64
+Maintainer: Panda <panda@ameridroid.com>
+Installed-Size: 9
+Depends: linux-image-rockchip (= 6.1.0.1023.24), linux-headers-rockchip (= 6.1.0.1023.24)
+Provides: kernel-testing--linux-rockchip--full--preferred, kernel-testing--linux-rockchip--full--rockchip
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-meta-rockchip/linux-rockchip_6.1.0.1023.24_arm64.deb
+Size: 2476
+SHA512: 5f5d242edc429f7f94f49b526e000c91124b513329bb891bc72cf6ab212fbec4b4283e834165a2ef5d5e99a3b9c82c73b047754b967299fb3642e72212cb3c38
+SHA256: 918b5ba58c7fad079416ebbadd0546cc5051e30903b8b9035811aca7ed680ac4
+SHA1: f155414efeda14ea9f20957a08d95565df81d1b6
+MD5sum: d36800562efb28263de886feda2f3438
+Description: Complete Rockchip Linux kernel and headers
+ This package will always depend on the latest complete rockchip Linux kernel
+ and headers.
 
 Package: linux-tools-rockchip
 Source: linux-meta-rockchip
@@ -1047,6 +1065,26 @@ Description: free implementation of the OpenCL API -- ICD runtime
  provides a standardized interface for computational analysis on graphical
  processing units.
 
+Package: mesa-va-drivers-dbgsym
+Source: mesa
+Version: 1:23.0.5-0~7~git221210.120202c6757
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 18774
+Depends: mesa-va-drivers (= 1:23.0.5-0~7~git221210.120202c6757)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/m/mesa/mesa-va-drivers-dbgsym_23.0.5-0~7~git221210.120202c6757_arm64.deb
+Size: 18061184
+SHA512: 76938a56dbf400572456f084c4c31721264cca7d782863f4ce6f5d0c5c12aa64b8ee9d5d24596f8727b908ebce234d07fa091d095de2e96af0dcb61646203fbe
+SHA256: e986a67140f0e4ccdf3d614ee63d1311563d8c3485a5c4d6f8bf4903ad7c0fa5
+SHA1: 538da85f18309cadb7de886813ea3c402171c235
+MD5sum: 5838778d2cb2819326068cf1e8f3c534
+Description: debug symbols for mesa-va-drivers
+Build-Ids: ce3f682e4f4c3b1c6dcdd2467107884981ab2c8d
+
 Package: mesa-va-drivers
 Source: mesa
 Version: 1:23.0.5-0~7~git221210.120202c6757
@@ -1075,25 +1113,25 @@ Description: Mesa VA-API video acceleration drivers
  .
  This package enables support for VA-API for some gallium drivers.
 
-Package: mesa-va-drivers-dbgsym
+Package: mesa-vdpau-drivers-dbgsym
 Source: mesa
 Version: 1:23.0.5-0~7~git221210.120202c6757
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 18774
-Depends: mesa-va-drivers (= 1:23.0.5-0~7~git221210.120202c6757)
+Installed-Size: 19217
+Depends: mesa-vdpau-drivers (= 1:23.0.5-0~7~git221210.120202c6757)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/m/mesa/mesa-va-drivers-dbgsym_23.0.5-0~7~git221210.120202c6757_arm64.deb
-Size: 18061184
-SHA512: 76938a56dbf400572456f084c4c31721264cca7d782863f4ce6f5d0c5c12aa64b8ee9d5d24596f8727b908ebce234d07fa091d095de2e96af0dcb61646203fbe
-SHA256: e986a67140f0e4ccdf3d614ee63d1311563d8c3485a5c4d6f8bf4903ad7c0fa5
-SHA1: 538da85f18309cadb7de886813ea3c402171c235
-MD5sum: 5838778d2cb2819326068cf1e8f3c534
-Description: debug symbols for mesa-va-drivers
-Build-Ids: ce3f682e4f4c3b1c6dcdd2467107884981ab2c8d
+Filename: pool/main/m/mesa/mesa-vdpau-drivers-dbgsym_23.0.5-0~7~git221210.120202c6757_arm64.deb
+Size: 18478736
+SHA512: 9555f6de89807a8026b1140c83e83e80575816920891ba394d8e08d199bd2334742731caa17a8423f746e358e41ec254a076d0df81857d6950b1116f784109f4
+SHA256: 9067b77ff4716be66ca6a0a345cd34bbd40b97aa1184d5bdcead2d10793f06a0
+SHA1: 5a2e6eb0214fcf6a09c831415a420ad9b3b4e5b3
+MD5sum: 8356c63a3aa0f0d3702db939785de974
+Description: debug symbols for mesa-vdpau-drivers
+Build-Ids: f8731eab53f1823b437580b80606da2d018ac3f1
 
 Package: mesa-vdpau-drivers
 Source: mesa
@@ -1121,25 +1159,25 @@ Description: Mesa VDPAU video acceleration drivers
  .
  This package enables support for VDPAU for some gallium drivers.
 
-Package: mesa-vdpau-drivers-dbgsym
+Package: mesa-vulkan-drivers-dbgsym
 Source: mesa
 Version: 1:23.0.5-0~7~git221210.120202c6757
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 19217
-Depends: mesa-vdpau-drivers (= 1:23.0.5-0~7~git221210.120202c6757)
+Installed-Size: 1182
+Depends: mesa-vulkan-drivers (= 1:23.0.5-0~7~git221210.120202c6757)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/m/mesa/mesa-vdpau-drivers-dbgsym_23.0.5-0~7~git221210.120202c6757_arm64.deb
-Size: 18478736
-SHA512: 9555f6de89807a8026b1140c83e83e80575816920891ba394d8e08d199bd2334742731caa17a8423f746e358e41ec254a076d0df81857d6950b1116f784109f4
-SHA256: 9067b77ff4716be66ca6a0a345cd34bbd40b97aa1184d5bdcead2d10793f06a0
-SHA1: 5a2e6eb0214fcf6a09c831415a420ad9b3b4e5b3
-MD5sum: 8356c63a3aa0f0d3702db939785de974
-Description: debug symbols for mesa-vdpau-drivers
-Build-Ids: f8731eab53f1823b437580b80606da2d018ac3f1
+Filename: pool/main/m/mesa/mesa-vulkan-drivers-dbgsym_23.0.5-0~7~git221210.120202c6757_arm64.deb
+Size: 1093100
+SHA512: 568897fe1a9fbed5fb81f5d83474cce11b498478bf55e038170038eaa44f63c22a3a6b580f1d9f4ad9304e690de3ae58094719c75cee10f0fa6b0aa2773d561f
+SHA256: 39c3fee5b77a60da638656bab8939dd856ea6bfd86b4c6f9aafd0fc5e651bc59
+SHA1: a3a43de782bdd775afb98f07eb3393f5a0722331
+MD5sum: 679e5474b0a9e4f2cc3d4a619beeadb2
+Description: debug symbols for mesa-vulkan-drivers
+Build-Ids: 4a4efef08bbd590e490b6fbe8fdc820d73fbe4e6 a2b6284adb3d0f3355a789e91977eebee31730d4
 
 Package: mesa-vulkan-drivers
 Source: mesa
@@ -1162,24 +1200,4 @@ MD5sum: e3243f92b5c7cb6528453fc710f4ed10
 Description: Mesa Vulkan graphics drivers
  Vulkan is a low-overhead 3D graphics and compute API. This package
  includes Vulkan drivers provided by the Mesa project.
-
-Package: mesa-vulkan-drivers-dbgsym
-Source: mesa
-Version: 1:23.0.5-0~7~git221210.120202c6757
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 1182
-Depends: mesa-vulkan-drivers (= 1:23.0.5-0~7~git221210.120202c6757)
-Multi-Arch: same
-Priority: optional
-Section: debug
-Filename: pool/main/m/mesa/mesa-vulkan-drivers-dbgsym_23.0.5-0~7~git221210.120202c6757_arm64.deb
-Size: 1093100
-SHA512: 568897fe1a9fbed5fb81f5d83474cce11b498478bf55e038170038eaa44f63c22a3a6b580f1d9f4ad9304e690de3ae58094719c75cee10f0fa6b0aa2773d561f
-SHA256: 39c3fee5b77a60da638656bab8939dd856ea6bfd86b4c6f9aafd0fc5e651bc59
-SHA1: a3a43de782bdd775afb98f07eb3393f5a0722331
-MD5sum: 679e5474b0a9e4f2cc3d4a619beeadb2
-Description: debug symbols for mesa-vulkan-drivers
-Build-Ids: 4a4efef08bbd590e490b6fbe8fdc820d73fbe4e6 a2b6284adb3d0f3355a789e91977eebee31730d4
 
