@@ -246,6 +246,25 @@ Description: Python library designed for building Linux distribution images.
  This library is designed to make it easy to build Linux distribution images
  for a variety of platforms, specifically ARM.
 
+Package: indiedroid-nova
+Version: 0.1
+Architecture: all
+Maintainer: Panda <panda@ameridroid.com>
+Installed-Size: 8
+Depends: ameridroid-archive-keyring
+Multi-Arch: foreign
+Priority: optional
+Section: metapackages
+Filename: pool/main/i/indiedroid-nova/indiedroid-nova_0.1_all.deb
+Size: 1416
+SHA256: d6ce1a15c4a7e772e60cf96f1037a69bcb49d0f9a5960748a9d2a28d95c563d1
+SHA1: fbaecee120146a6f7ad62929cd3c6002a89ff382
+MD5sum: 30a8d68fe1eb4d4abba3ff61f4cede29
+Description: Indiedroid Nova board support (bugfix channel)
+ Installed on every Indiedroid Nova image. It is empty for now; later
+ versions can ship fixes (files, maintainer scripts, or new dependencies)
+ to existing installs through a normal apt upgrade.
+
 Package: libd3dadapter9-mesa-dbgsym
 Source: mesa
 Version: 1:23.0.5-0~7~git221210.120202c6757

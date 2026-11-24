@@ -4,33 +4,33 @@ Hash: SHA512
 Origin: indieDroid
 Label: indieDroid APT Repository
 Codename: sid
-Date: Tue, 24 Nov 2026 16:33:13 UTC
+Date: Tue, 24 Nov 2026 17:47:59 UTC
 Architectures: arm64
 Components: main
 Description: Custom APT repository for software packages supporting Debian-based distributions for indieDroid Products.
 MD5Sum:
- b00225f8d1394f594ece3aef5a12a1fc 55674 main/binary-arm64/Packages
- fca0b5942e6f8d68da3a4b5ec99bc8f4 17007 main/binary-arm64/Packages.gz
+ 3e2bc263986f6d0b6abc0422b6fe200c 56381 main/binary-arm64/Packages
+ 47f63348f2a57ca33fd522dc13d5ab17 17269 main/binary-arm64/Packages.gz
  eb021639ee00856c30b42c3c356b1909 208 main/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-arm64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-arm64/Packages.gz
 SHA1:
- 7e5c9dfdc3d92bf26e2b869281e59268551db7dc 55674 main/binary-arm64/Packages
- f472b71a6ab0067633427ed63ae7d5cf1d902a5b 17007 main/binary-arm64/Packages.gz
+ ed36facd1b99410ed7523f37fd517cdc22757eb7 56381 main/binary-arm64/Packages
+ b3b16396b98d5e733dd647ac7b17f5394293167e 17269 main/binary-arm64/Packages.gz
  8ae8f5664e5e3b99b5e18137f74a04f9306d0dd7 208 main/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-arm64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-arm64/Packages.gz
 SHA256:
- dd66cad22c521231f01199b10b33546f5812749834e0baf750ea13bf0e251749 55674 main/binary-arm64/Packages
- 3cc058ae9419f85551aa9fa61052eae86efd48e61d9f21e228a31f71c76957f1 17007 main/binary-arm64/Packages.gz
+ 1dee0628d2c8b82b8bfaa9d2679166d3cd3ff4d355be186a8c906697c0244703 56381 main/binary-arm64/Packages
+ 7a8a18ad3e7356257eb456ef4a286b54b4270730a8dcfe1f5e98987f9ce4cd5d 17269 main/binary-arm64/Packages.gz
  a4784837d29d36559f350a3b2a1511679815782db88f09d990197dc0d9238565 208 main/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-arm64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-arm64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iJEEARYKADkWIQSIq/5UFjMmhQCNv6ICLb85v1iLuQUCawW8URsUgAAAAAAEAA5t
-YW51MiwyLjUrMS4xMiwwLDMACgkQAi2/Ob9Yi7lEpgEA1WFADGlAFp23Rjt+7WqI
-xarn3lSBeev/2W2xoqbNQN8A/RtdA7k+6CaJ0aUys2AoaukqwcCs3x4caEQ4j0EX
-bj0D
-=iPrL
+iJEEARYKADkWIQSIq/5UFjMmhQCNv6ICLb85v1iLuQUCawXN1RsUgAAAAAAEAA5t
+YW51MiwyLjUrMS4xMiwwLDMACgkQAi2/Ob9Yi7n9BQD/Siv+LCfkmYx0gMa1VJcy
+9m6ESU80/Th13Te0+uNbHpMA/j8V5Lib6sZr903R7VOx0R/or6pRjqJaKCAvzynZ
+3MoE
+=waSn
 -----END PGP SIGNATURE-----

@@ -16,7 +16,7 @@ else
     echo "Usage: $0 [testing|stable] <debfiles> ..."
     exit 1
 fi
-for i in oracular sid bookworm trixie
+for i in oracular sid bookworm trixie resolute
 do
     for y in "$@"
     do

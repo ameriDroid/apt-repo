@@ -33,3 +33,12 @@ Components: main
 UdebComponents: main
 Description: Custom APT repository for software packages supporting Debian-based distributions for indieDroid Products.
 SignWith: 88ABFE5416332685008DBFA2022DBF39BF588BB9
+
+Origin: indieDroid
+Label: indieDroid APT Repository
+Codename: resolute
+Architectures: arm64
+Components: main
+UdebComponents: main
+Description: Custom APT repository for software packages supporting Debian-based distributions for indieDroid Products.
+SignWith: 88ABFE5416332685008DBFA2022DBF39BF588BB9

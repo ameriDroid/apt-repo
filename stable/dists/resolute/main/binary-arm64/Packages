@@ -1,0 +1,37 @@
+Package: ameridroid-archive-keyring
+Version: 2024.11.18
+Architecture: all
+Maintainer: Panda <panda@ameridroid.com>
+Installed-Size: 10
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/a/ameridroid-archive-keyring/ameridroid-archive-keyring_2024.11.18_all.deb
+Size: 1848
+SHA256: db58ae29611ba43a27793f68140f5c5766c86a994230e10bbe9df594d90c7c0f
+SHA1: 6d6034c4c90d172b20fb67a15aba065637928881
+MD5sum: eb30fe8697fa006810a6b510bd68216d
+Description: OpenPGP key for the ameriDroid / indieDroid APT repository
+ Installs the public key used to sign https://ameridroid.github.io/apt-repo
+ into /usr/share/keyrings/ameridroid-archive-keyring.gpg, for use with
+ signed-by= in APT sources.
+
+Package: indiedroid-nova
+Version: 0.1
+Architecture: all
+Maintainer: Panda <panda@ameridroid.com>
+Installed-Size: 8
+Depends: ameridroid-archive-keyring
+Multi-Arch: foreign
+Priority: optional
+Section: metapackages
+Filename: pool/main/i/indiedroid-nova/indiedroid-nova_0.1_all.deb
+Size: 1416
+SHA256: d6ce1a15c4a7e772e60cf96f1037a69bcb49d0f9a5960748a9d2a28d95c563d1
+SHA1: fbaecee120146a6f7ad62929cd3c6002a89ff382
+MD5sum: 30a8d68fe1eb4d4abba3ff61f4cede29
+Description: Indiedroid Nova board support (bugfix channel)
+ Installed on every Indiedroid Nova image. It is empty for now; later
+ versions can ship fixes (files, maintainer scripts, or new dependencies)
+ to existing installs through a normal apt upgrade.
+
