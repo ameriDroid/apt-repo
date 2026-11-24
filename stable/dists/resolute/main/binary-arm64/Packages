@@ -17,19 +17,19 @@ Description: OpenPGP key for the ameriDroid / indieDroid APT repository
  signed-by= in APT sources.
 
 Package: indiedroid-nova
-Version: 0.1
+Version: 0.2ubuntu1
 Architecture: all
 Maintainer: Panda <panda@ameridroid.com>
-Installed-Size: 8
-Depends: ameridroid-archive-keyring
+Installed-Size: 19
+Depends: ameridroid-archive-keyring, python3, zstd
 Multi-Arch: foreign
 Priority: optional
 Section: metapackages
-Filename: pool/main/i/indiedroid-nova/indiedroid-nova_0.1_all.deb
-Size: 1416
-SHA256: d6ce1a15c4a7e772e60cf96f1037a69bcb49d0f9a5960748a9d2a28d95c563d1
-SHA1: fbaecee120146a6f7ad62929cd3c6002a89ff382
-MD5sum: 30a8d68fe1eb4d4abba3ff61f4cede29
+Filename: pool/main/i/indiedroid-nova/indiedroid-nova_0.2ubuntu1_all.deb
+Size: 3280
+SHA256: 360643090e35d0612f8b0dff02e73123a0a0345302973305d77bdf0018ca7219
+SHA1: bad7ebd64a845df3d06decca033ebd2942d0a2e7
+MD5sum: e2438d5d0e6ce8dcc7317db710fb0561
 Description: Indiedroid Nova board support (bugfix channel)
  Installed on every Indiedroid Nova image. It is empty for now; later
  versions can ship fixes (files, maintainer scripts, or new dependencies)
